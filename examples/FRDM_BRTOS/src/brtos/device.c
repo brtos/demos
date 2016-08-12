@@ -13,9 +13,8 @@
 static OS_Device_t BRTOSDevices[MAX_INSTALLED_DEVICES];
 static OS_Device_Control_t BRTOSDevControl[MAX_INSTALLED_DEVICES];
 
-static driver_installer_t OSInstalledDevices[AVAILABLE_DEVICES_TYPES] = DRIVER_LIST;
-
-const char *dev_types[]={"UART", "SPI", "I2C", "GPIO"};
+static const driver_installer_t OSInstalledDevices[AVAILABLE_DEVICES_TYPES] = DRIVER_LIST;
+static const char *dev_types[] = DRIVER_NAMES;
 
 OS_Device_Control_t *OSDevOpen(char *name, void *option){
 	OS_CPU_TYPE    index = 0;

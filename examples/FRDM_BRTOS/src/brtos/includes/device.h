@@ -15,15 +15,6 @@
 #include "BRTOS.h"
 #include "OSDevConfig.h"
 
-typedef enum
-{
-	UART_TYPE = 0,
-	SPI_TYPE,
-	I2C_TYPE,
-	GPIO_TYPE,
-	END_TYPE
-} Device_Types_t;
-
 /**
  * @brief Static device information (In ROM) Per driver instance
  * @param name name of the device

@@ -1527,7 +1527,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x1fb ./src/Drivers/GPIOx.o
  .debug_macro   0x00000000      0x70a ./src/Drivers/GPIOx.o
  .debug_macro   0x00000000      0x16d ./src/Drivers/GPIOx.o
- .debug_macro   0x00000000       0x1c ./src/Drivers/GPIOx.o
+ .debug_macro   0x00000000       0x22 ./src/Drivers/GPIOx.o
  .debug_macro   0x00000000       0xea ./src/Drivers/GPIOx.o
  .group         0x00000000        0x8 ./src/Drivers/UARTx.o
  .group         0x00000000        0x8 ./src/Drivers/UARTx.o
@@ -1582,7 +1582,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x329 ./src/Drivers/UARTx.o
  .debug_macro   0x00000000     0x3df3 ./src/Drivers/UARTx.o
  .debug_macro   0x00000000      0x16d ./src/Drivers/UARTx.o
- .debug_macro   0x00000000       0x1c ./src/Drivers/UARTx.o
+ .debug_macro   0x00000000       0x22 ./src/Drivers/UARTx.o
  .debug_macro   0x00000000       0xea ./src/Drivers/UARTx.o
  .group         0x00000000        0x8 ./src/Drivers/system.o
  .group         0x00000000        0x8 ./src/Drivers/system.o
@@ -2396,7 +2396,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x58f ./src/tasks.o
  .debug_macro   0x00000000       0x10 ./src/tasks.o
  .debug_macro   0x00000000      0x16d ./src/tasks.o
- .debug_macro   0x00000000       0x1c ./src/tasks.o
+ .debug_macro   0x00000000       0x22 ./src/tasks.o
  .debug_macro   0x00000000       0xea ./src/tasks.o
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
@@ -2712,7 +2712,7 @@ END GROUP
                 0x20002c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 0x20002c00                PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
                 0x00000100                _Minimum_Stack_Size = 0x100
-                0x1ffffd60                PROVIDE (_Heap_Begin, _end_noinit)
+                0x1ffffd50                PROVIDE (_Heap_Begin, _end_noinit)
                 0x20002c00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
 
 .isr_vector     0x00000000      0x57c
@@ -2776,16 +2776,16 @@ END GROUP
 
 .inits          0x0000057c       0x28
                 0x0000057c                __data_regions_array_start = .
-                0x0000057c        0x4 LONG 0x3f34 LOADADDR (.data)
+                0x0000057c        0x4 LONG 0x3f44 LOADADDR (.data)
                 0x00000580        0x4 LONG 0x1ffff000 ADDR (.data)
-                0x00000584        0x4 LONG 0x1ffff08c (ADDR (.data) + SIZEOF (.data))
-                0x00000588        0x4 LONG 0x3f34 LOADADDR (.data_CCMRAM)
+                0x00000584        0x4 LONG 0x1ffff07c (ADDR (.data) + SIZEOF (.data))
+                0x00000588        0x4 LONG 0x3f44 LOADADDR (.data_CCMRAM)
                 0x0000058c        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x00000590        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x00000594                __data_regions_array_end = .
                 0x00000594                __bss_regions_array_start = .
-                0x00000594        0x4 LONG 0x1ffff090 ADDR (.bss)
-                0x00000598        0x4 LONG 0x1ffffd60 (ADDR (.bss) + SIZEOF (.bss))
+                0x00000594        0x4 LONG 0x1ffff080 ADDR (.bss)
+                0x00000598        0x4 LONG 0x1ffffd50 (ADDR (.bss) + SIZEOF (.bss))
                 0x0000059c        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
                 0x000005a0        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x000005a4                __bss_regions_array_end = .
@@ -2811,7 +2811,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x000005a4     0x3990
+.text           0x000005a4     0x39a0
  *(.text .text.*)
  .text._exit    0x000005a4        0x4 ./system/src/newlib/_exit.o
                 0x000005a4                _exit
@@ -3155,87 +3155,89 @@ END GROUP
                 0x00003b3c       0x1c ./src/brtos/BRTOS.o
  .rodata.OSInstalledDevices
                 0x00003b58       0x10 ./src/brtos/device.o
+ .rodata.dev_types
+                0x00003b68       0x10 ./src/brtos/device.o
  .rodata.str1.4
-                0x00003b68       0x18 ./src/brtos/device.o
+                0x00003b78       0x18 ./src/brtos/device.o
  .rodata.OSOpenGPIO
-                0x00003b80       0x14 ./src/Drivers/GPIOx.o
+                0x00003b90       0x14 ./src/Drivers/GPIOx.o
  .rodata.GPIO_api
-                0x00003b94       0x10 ./src/Drivers/GPIOx.o
-                0x00003b94                GPIO_api
+                0x00003ba4       0x10 ./src/Drivers/GPIOx.o
+                0x00003ba4                GPIO_api
  .rodata.UART_Get
-                0x00003ba4       0x14 ./src/Drivers/UARTx.o
+                0x00003bb4       0x14 ./src/Drivers/UARTx.o
  .rodata.UART_api
-                0x00003bb8       0x10 ./src/Drivers/UARTx.o
+                0x00003bc8       0x10 ./src/Drivers/UARTx.o
  .rodata.g_pulPortBase
-                0x00003bc8       0x14 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00003bd8       0x14 ./src/CoX/CoX_Peripheral/src/xgpio.o
  .rodata.g_pulAXBCLKRegs
-                0x00003bdc       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+                0x00003bec       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
  .rodata.str1.4
-                0x00003bec       0x42 ./src/main.o
- *fill*         0x00003c2e        0x2 
+                0x00003bfc       0x42 ./src/main.o
+ *fill*         0x00003c3e        0x2 
  .rodata.Test_Task_2
-                0x00003c30       0x14 ./src/tasks.o
+                0x00003c40       0x14 ./src/tasks.o
  .rodata.str1.4
-                0x00003c44       0x30 ./src/tasks.o
+                0x00003c54       0x30 ./src/tasks.o
                                  0x2e (size before relaxing)
  .rodata.SinusOutputData
-                0x00003c74      0x200 ./src/tasks.o
+                0x00003c84      0x200 ./src/tasks.o
  .rodata.str1.1
-                0x00003e74        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
- *fill*         0x00003e76        0x2 
+                0x00003e84        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ *fill*         0x00003e86        0x2 
  .rodata.__sf_fake_stdin
-                0x00003e78       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x00003e78                __sf_fake_stdin
+                0x00003e88       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x00003e88                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x00003e98       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x00003e98                __sf_fake_stdout
+                0x00003ea8       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x00003ea8                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x00003eb8       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x00003eb8                __sf_fake_stderr
+                0x00003ec8       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x00003ec8                __sf_fake_stderr
  .rodata.str1.1
-                0x00003ed8       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00003ee8       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x00003ee9       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00003ef9       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
  *(vtable)
  *(.eh_frame*)
- *fill*         0x00003f0b        0x1 
- .eh_frame      0x00003f0c       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+ *fill*         0x00003f1b        0x1 
+ .eh_frame      0x00003f1c       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00003f34        0x0
+.vfp11_veneer   0x00003f44        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00003f34        0x0
+.v4_bx          0x00003f44        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00003f34        0x0
+.iplt           0x00003f44        0x0
  .iplt          0x00000000        0x0 ./system/src/newlib/_cxx.o
 
-.rel.dyn        0x00003f34        0x0
+.rel.dyn        0x00003f44        0x0
  .rel.iplt      0x00000000        0x0 ./system/src/newlib/_cxx.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00003f34                . = ALIGN (0x4)
-                0x00003f34                __exidx_start = .
+                0x00003f44                . = ALIGN (0x4)
+                0x00003f44                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00003f34                __exidx_end = .
-                0x00003f34                . = ALIGN (0x4)
-                0x00003f34                _etext = .
-                0x00003f34                __etext = .
+                0x00003f44                __exidx_end = .
+                0x00003f44                . = ALIGN (0x4)
+                0x00003f44                _etext = .
+                0x00003f44                __etext = .
 
-.data_CCMRAM    0x00000000        0x0 load address 0x00003f34
+.data_CCMRAM    0x00000000        0x0 load address 0x00003f44
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x00000000                . = ALIGN (0x4)
-                0x00003f34                _sidata = LOADADDR (.data)
+                0x00003f44                _sidata = LOADADDR (.data)
 
-.data           0x1ffff000       0x8c load address 0x00003f34
+.data           0x1ffff000       0x7c load address 0x00003f44
  FILL mask 0xff
                 0x1ffff000                _sdata = .
                 0x1ffff000                __data_start__ = .
@@ -3250,122 +3252,119 @@ END GROUP
  .data.OSBlockedList
                 0x1ffff010        0x4 ./src/brtos/BRTOS.o
                 0x1ffff010                OSBlockedList
- .data.dev_types
-                0x1ffff014       0x10 ./src/brtos/device.o
-                0x1ffff014                dev_types
  .data.impure_data
-                0x1ffff024       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x1ffff014       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
  .data._impure_ptr
-                0x1ffff084        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
-                0x1ffff084                _impure_ptr
+                0x1ffff074        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x1ffff074                _impure_ptr
  *(.data_end .data_end.*)
- .data_end      0x1ffff088        0x4 ./system/src/newlib/_startup.o
-                0x1ffff08c                . = ALIGN (0x4)
-                0x1ffff08c                _edata = .
-                0x1ffff08c                __data_end__ = .
+ .data_end      0x1ffff078        0x4 ./system/src/newlib/_startup.o
+                0x1ffff07c                . = ALIGN (0x4)
+                0x1ffff07c                _edata = .
+                0x1ffff07c                __data_end__ = .
 
-.igot.plt       0x1ffff08c        0x0 load address 0x00003fc0
+.igot.plt       0x1ffff07c        0x0 load address 0x00003fc0
  .igot.plt      0x00000000        0x0 ./system/src/newlib/_cxx.o
 
 .bss_CCMRAM     0x00000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x1ffff090      0xcd0
-                0x1ffff090                __bss_start__ = .
-                0x1ffff090                _sbss = .
+.bss            0x1ffff080      0xcd0
+                0x1ffff080                __bss_start__ = .
+                0x1ffff080                _sbss = .
  *(.bss_begin .bss_begin.*)
- .bss_begin     0x1ffff090        0x4 ./system/src/newlib/_startup.o
+ .bss_begin     0x1ffff080        0x4 ./system/src/newlib/_startup.o
  *(.bss .bss.*)
  .bss.current_heap_end.4310
-                0x1ffff094        0x4 ./system/src/newlib/_sbrk.o
+                0x1ffff084        0x4 ./system/src/newlib/_sbrk.o
  .bss.name.4608
-                0x1ffff098        0x1 ./system/src/newlib/_syscalls.o
- *fill*         0x1ffff099        0x3 
- .bss.buf.5446  0x1ffff09c       0x80 ./system/src/diag/Trace.o
- *fill*         0x1ffff11c        0x4 
+                0x1ffff088        0x1 ./system/src/newlib/_syscalls.o
+ *fill*         0x1ffff089        0x3 
+ .bss.buf.5446  0x1ffff08c       0x80 ./system/src/diag/Trace.o
+ *fill*         0x1ffff10c        0x4 
  .bss.OSTickCounter
-                0x1ffff120        0x8 ./src/brtos/BRTOS.o
+                0x1ffff110        0x8 ./src/brtos/BRTOS.o
  .bss.iQueueAddress
-                0x1ffff128        0x2 ./src/brtos/BRTOS.o
-                0x1ffff128                iQueueAddress
- *fill*         0x1ffff12a        0x2 
+                0x1ffff118        0x2 ./src/brtos/BRTOS.o
+                0x1ffff118                iQueueAddress
+ *fill*         0x1ffff11a        0x2 
  .bss.TaskAlloc
-                0x1ffff12c        0x4 ./src/brtos/BRTOS.o
-                0x1ffff12c                TaskAlloc
+                0x1ffff11c        0x4 ./src/brtos/BRTOS.o
+                0x1ffff11c                TaskAlloc
  .bss.iStackAddress
-                0x1ffff130        0x2 ./src/brtos/BRTOS.o
-                0x1ffff130                iStackAddress
- .bss.iNesting  0x1ffff132        0x1 ./src/brtos/BRTOS.o
-                0x1ffff132                iNesting
- *fill*         0x1ffff133        0x1 
+                0x1ffff120        0x2 ./src/brtos/BRTOS.o
+                0x1ffff120                iStackAddress
+ .bss.iNesting  0x1ffff122        0x1 ./src/brtos/BRTOS.o
+                0x1ffff122                iNesting
+ *fill*         0x1ffff123        0x1 
  .bss.OSReadyList
-                0x1ffff134        0x4 ./src/brtos/BRTOS.o
-                0x1ffff134                OSReadyList
- .bss.Data      0x1ffff138        0x4 ./src/brtos/OSTime.o
- .bss.Hora      0x1ffff13c        0x3 ./src/brtos/OSTime.o
- *fill*         0x1ffff13f        0x1 
+                0x1ffff124        0x4 ./src/brtos/BRTOS.o
+                0x1ffff124                OSReadyList
+ .bss.Data      0x1ffff128        0x4 ./src/brtos/OSTime.o
+ .bss.Hora      0x1ffff12c        0x3 ./src/brtos/OSTime.o
+ *fill*         0x1ffff12f        0x1 
  .bss.BRTOSDevices
-                0x1ffff140       0x50 ./src/brtos/device.o
+                0x1ffff130       0x50 ./src/brtos/device.o
  .bss.BRTOSDevControl
-                0x1ffff190       0x3c ./src/brtos/device.o
- .bss.SerialQ   0x1ffff1cc        0xc ./src/Drivers/UARTx.o
- .bss.SerialTX  0x1ffff1d8        0xc ./src/Drivers/UARTx.o
+                0x1ffff180       0x3c ./src/brtos/device.o
+ .bss.SerialQ   0x1ffff1bc        0xc ./src/Drivers/UARTx.o
+ .bss.SerialTX  0x1ffff1c8        0xc ./src/Drivers/UARTx.o
  .bss.g_pfnUARTHandlerCallbacks
-                0x1ffff1e4        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x1ffff1d4        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
  .bss.g_WatchDogStatue
-                0x1ffff1f0        0x4 ./src/CoX/CoX_Peripheral/src/xwdt.o
+                0x1ffff1e0        0x4 ./src/CoX/CoX_Peripheral/src/xwdt.o
  .bss.__malloc_sbrk_start
-                0x1ffff1f4        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
-                0x1ffff1f4                __malloc_sbrk_start
+                0x1ffff1e4        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x1ffff1e4                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x1ffff1f8        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
-                0x1ffff1f8                __malloc_free_list
+                0x1ffff1e8        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x1ffff1e8                __malloc_free_list
  *(COMMON)
- COMMON         0x1ffff1fc        0x4 ./system/src/newlib/_syscalls.o
-                0x1ffff1fc                errno
- COMMON         0x1ffff200        0x4 ./src/hal/HAL.o
-                0x1ffff200                SPvalue
- *fill*         0x1ffff204        0x4 
- COMMON         0x1ffff208      0xb50 ./src/brtos/BRTOS.o
-                0x1ffff208                BRTOS_Sem_Table
-                0x1ffff228                StackAddress
-                0x1ffff22c                BRTOS_Queue_Table
-                0x1ffff250                NumberOfInstalledTasks
-                0x1ffff254                PriorityVector
-                0x1ffff274                SelectedTask
-                0x1ffff275                currentTask
-                0x1ffff278                QUEUE_STACK
-                0x1ffff378                BRTOS_Mutex_Table
-                0x1ffff390                BRTOS_Mbox_Table
-                0x1ffff3a8                STACK
-                0x1ffffba8                Head
-                0x1ffffbb0                ContextTask
-                0x1ffffd18                Tail
-                0x1ffffd1c                BRTOS_OS_QUEUE_Table
- COMMON         0x1ffffd58        0x4 ./src/main.o
-                0x1ffffd58                Data
+ COMMON         0x1ffff1ec        0x4 ./system/src/newlib/_syscalls.o
+                0x1ffff1ec                errno
+ COMMON         0x1ffff1f0        0x4 ./src/hal/HAL.o
+                0x1ffff1f0                SPvalue
+ *fill*         0x1ffff1f4        0x4 
+ COMMON         0x1ffff1f8      0xb50 ./src/brtos/BRTOS.o
+                0x1ffff1f8                BRTOS_Sem_Table
+                0x1ffff218                StackAddress
+                0x1ffff21c                BRTOS_Queue_Table
+                0x1ffff240                NumberOfInstalledTasks
+                0x1ffff244                PriorityVector
+                0x1ffff264                SelectedTask
+                0x1ffff265                currentTask
+                0x1ffff268                QUEUE_STACK
+                0x1ffff368                BRTOS_Mutex_Table
+                0x1ffff380                BRTOS_Mbox_Table
+                0x1ffff398                STACK
+                0x1ffffb98                Head
+                0x1ffffba0                ContextTask
+                0x1ffffd08                Tail
+                0x1ffffd0c                BRTOS_OS_QUEUE_Table
+ COMMON         0x1ffffd48        0x4 ./src/main.o
+                0x1ffffd48                Data
  *(.bss_end .bss_end.*)
- .bss_end       0x1ffffd5c        0x4 ./system/src/newlib/_startup.o
-                0x1ffffd60                . = ALIGN (0x4)
-                0x1ffffd60                __bss_end__ = .
-                0x1ffffd60                _ebss = .
+ .bss_end       0x1ffffd4c        0x4 ./system/src/newlib/_startup.o
+                0x1ffffd50                . = ALIGN (0x4)
+                0x1ffffd50                __bss_end__ = .
+                0x1ffffd50                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x1ffffd60        0x0
-                0x1ffffd60                _noinit = .
+.noinit         0x1ffffd50        0x0
+                0x1ffffd50                _noinit = .
  *(.noinit .noinit.*)
-                0x1ffffd60                . = ALIGN (0x4)
-                0x1ffffd60                _end_noinit = .
-                0x1ffffd60                PROVIDE (end, _end_noinit)
-                0x1ffffd60                PROVIDE (_end, _end_noinit)
-                0x1ffffd60                PROVIDE (__end, _end_noinit)
-                0x1ffffd60                PROVIDE (__end__, _end_noinit)
+                0x1ffffd50                . = ALIGN (0x4)
+                0x1ffffd50                _end_noinit = .
+                0x1ffffd50                PROVIDE (end, _end_noinit)
+                0x1ffffd50                PROVIDE (_end, _end_noinit)
+                0x1ffffd50                PROVIDE (__end, _end_noinit)
+                0x1ffffd50                PROVIDE (__end__, _end_noinit)
 
-._check_stack   0x1ffffd60      0x100
-                0x1ffffe60                . = (. + _Minimum_Stack_Size)
- *fill*         0x1ffffd60      0x100 
+._check_stack   0x1ffffd50      0x100
+                0x1ffffe50                . = (. + _Minimum_Stack_Size)
+ *fill*         0x1ffffd50      0x100 
 
 .b1text
  *(.b1text)
@@ -3613,7 +3612,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xa87b
+.debug_info     0x00000000     0xa88f
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x100 ./system/src/newlib/_exit.o
  .debug_info    0x00000100      0x125 ./system/src/newlib/_sbrk.o
@@ -3628,23 +3627,23 @@ END GROUP
  .debug_info    0x00001f31      0x33c ./src/hal/HAL.o
  .debug_info    0x0000226d      0xda9 ./src/brtos/BRTOS.o
  .debug_info    0x00003016      0x46b ./src/brtos/OSTime.o
- .debug_info    0x00003481      0x682 ./src/brtos/device.o
- .debug_info    0x00003b03      0x51d ./src/brtos/mbox.o
- .debug_info    0x00004020      0x904 ./src/brtos/queue.o
- .debug_info    0x00004924      0x58d ./src/brtos/semaphore.o
- .debug_info    0x00004eb1      0xa38 ./src/Drivers/MMA8451/accel.o
- .debug_info    0x000058e9      0x3fc ./src/Drivers/DAC/DAC.o
- .debug_info    0x00005ce5      0x77f ./src/Drivers/GPIOx.o
- .debug_info    0x00006464     0x1068 ./src/Drivers/UARTx.o
- .debug_info    0x000074cc      0x48e ./src/CoX/CoX_Peripheral/src/xcore.o
- .debug_info    0x0000795a      0xa16 ./src/CoX/CoX_Peripheral/src/xgpio.o
- .debug_info    0x00008370      0xb4b ./src/CoX/CoX_Peripheral/src/xsysctl.o
- .debug_info    0x00008ebb      0xb4d ./src/CoX/CoX_Peripheral/src/xuart.o
- .debug_info    0x00009a08       0x9f ./src/CoX/CoX_Peripheral/src/xwdt.o
- .debug_info    0x00009aa7      0x2de ./src/main.o
- .debug_info    0x00009d85      0xaf6 ./src/tasks.o
+ .debug_info    0x00003481      0x696 ./src/brtos/device.o
+ .debug_info    0x00003b17      0x51d ./src/brtos/mbox.o
+ .debug_info    0x00004034      0x904 ./src/brtos/queue.o
+ .debug_info    0x00004938      0x58d ./src/brtos/semaphore.o
+ .debug_info    0x00004ec5      0xa38 ./src/Drivers/MMA8451/accel.o
+ .debug_info    0x000058fd      0x3fc ./src/Drivers/DAC/DAC.o
+ .debug_info    0x00005cf9      0x77f ./src/Drivers/GPIOx.o
+ .debug_info    0x00006478     0x1068 ./src/Drivers/UARTx.o
+ .debug_info    0x000074e0      0x48e ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_info    0x0000796e      0xa16 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_info    0x00008384      0xb4b ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_info    0x00008ecf      0xb4d ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_info    0x00009a1c       0x9f ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_info    0x00009abb      0x2de ./src/main.o
+ .debug_info    0x00009d99      0xaf6 ./src/tasks.o
 
-.debug_abbrev   0x00000000     0x29a1
+.debug_abbrev   0x00000000     0x2990
  *(.debug_abbrev)
  .debug_abbrev  0x00000000       0xa4 ./system/src/newlib/_exit.o
  .debug_abbrev  0x000000a4       0xbb ./system/src/newlib/_sbrk.o
@@ -3659,21 +3658,21 @@ END GROUP
  .debug_abbrev  0x00000b5a      0x1db ./src/hal/HAL.o
  .debug_abbrev  0x00000d35      0x257 ./src/brtos/BRTOS.o
  .debug_abbrev  0x00000f8c      0x1ad ./src/brtos/OSTime.o
- .debug_abbrev  0x00001139      0x1b5 ./src/brtos/device.o
- .debug_abbrev  0x000012ee      0x1c7 ./src/brtos/mbox.o
- .debug_abbrev  0x000014b5      0x1c7 ./src/brtos/queue.o
- .debug_abbrev  0x0000167c      0x1cf ./src/brtos/semaphore.o
- .debug_abbrev  0x0000184b      0x1ed ./src/Drivers/MMA8451/accel.o
- .debug_abbrev  0x00001a38      0x109 ./src/Drivers/DAC/DAC.o
- .debug_abbrev  0x00001b41      0x1c1 ./src/Drivers/GPIOx.o
- .debug_abbrev  0x00001d02      0x26f ./src/Drivers/UARTx.o
- .debug_abbrev  0x00001f71      0x151 ./src/CoX/CoX_Peripheral/src/xcore.o
- .debug_abbrev  0x000020c2      0x1b0 ./src/CoX/CoX_Peripheral/src/xgpio.o
- .debug_abbrev  0x00002272      0x213 ./src/CoX/CoX_Peripheral/src/xsysctl.o
- .debug_abbrev  0x00002485      0x16f ./src/CoX/CoX_Peripheral/src/xuart.o
- .debug_abbrev  0x000025f4       0x72 ./src/CoX/CoX_Peripheral/src/xwdt.o
- .debug_abbrev  0x00002666      0x114 ./src/main.o
- .debug_abbrev  0x0000277a      0x227 ./src/tasks.o
+ .debug_abbrev  0x00001139      0x1a4 ./src/brtos/device.o
+ .debug_abbrev  0x000012dd      0x1c7 ./src/brtos/mbox.o
+ .debug_abbrev  0x000014a4      0x1c7 ./src/brtos/queue.o
+ .debug_abbrev  0x0000166b      0x1cf ./src/brtos/semaphore.o
+ .debug_abbrev  0x0000183a      0x1ed ./src/Drivers/MMA8451/accel.o
+ .debug_abbrev  0x00001a27      0x109 ./src/Drivers/DAC/DAC.o
+ .debug_abbrev  0x00001b30      0x1c1 ./src/Drivers/GPIOx.o
+ .debug_abbrev  0x00001cf1      0x26f ./src/Drivers/UARTx.o
+ .debug_abbrev  0x00001f60      0x151 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_abbrev  0x000020b1      0x1b0 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_abbrev  0x00002261      0x213 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_abbrev  0x00002474      0x16f ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_abbrev  0x000025e3       0x72 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_abbrev  0x00002655      0x114 ./src/main.o
+ .debug_abbrev  0x00002769      0x227 ./src/tasks.o
 
 .debug_line     0x00000000     0x76f0
  *(.debug_line)
@@ -3753,7 +3752,7 @@ END GROUP
  .debug_frame   0x00001f2c       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
  .debug_frame   0x00001f5c       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x00000000    0x3ffee
+.debug_str      0x00000000    0x4001a
  *(.debug_str)
  .debug_str     0x00000000     0x5d37 ./system/src/newlib/_exit.o
                                0x5ea9 (size before relaxing)
@@ -3781,36 +3780,36 @@ END GROUP
                                0x4f2a (size before relaxing)
  .debug_str     0x0002aceb      0x11e ./src/brtos/OSTime.o
                                0x4b5a (size before relaxing)
- .debug_str     0x0002ae09      0x59e ./src/brtos/device.o
-                               0x73b5 (size before relaxing)
- .debug_str     0x0002b3a7       0x66 ./src/brtos/mbox.o
+ .debug_str     0x0002ae09      0x5ca ./src/brtos/device.o
+                               0x73e1 (size before relaxing)
+ .debug_str     0x0002b3d3       0x66 ./src/brtos/mbox.o
                                0x4be3 (size before relaxing)
- .debug_str     0x0002b40d       0xb2 ./src/brtos/queue.o
+ .debug_str     0x0002b439       0xb2 ./src/brtos/queue.o
                                0x4ccc (size before relaxing)
- .debug_str     0x0002b4bf       0x57 ./src/brtos/semaphore.o
+ .debug_str     0x0002b4eb       0x57 ./src/brtos/semaphore.o
                                0x4bcd (size before relaxing)
- .debug_str     0x0002b516      0x1ac ./src/Drivers/MMA8451/accel.o
+ .debug_str     0x0002b542      0x1ac ./src/Drivers/MMA8451/accel.o
                               0x24b07 (size before relaxing)
- .debug_str     0x0002b6c2       0x53 ./src/Drivers/DAC/DAC.o
+ .debug_str     0x0002b6ee       0x53 ./src/Drivers/DAC/DAC.o
                               0x23006 (size before relaxing)
- .debug_str     0x0002b715     0x7da7 ./src/Drivers/GPIOx.o
-                               0xcfb9 (size before relaxing)
- .debug_str     0x000334bc     0x3dad ./src/Drivers/UARTx.o
-                              0x30c42 (size before relaxing)
- .debug_str     0x00037269     0x3547 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_str     0x0002b741     0x7da7 ./src/Drivers/GPIOx.o
+                               0xcfe5 (size before relaxing)
+ .debug_str     0x000334e8     0x3dad ./src/Drivers/UARTx.o
+                              0x30c6e (size before relaxing)
+ .debug_str     0x00037295     0x3547 ./src/CoX/CoX_Peripheral/src/xcore.o
                                0x625a (size before relaxing)
- .debug_str     0x0003a7b0     0x42d6 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_str     0x0003a7dc     0x42d6 ./src/CoX/CoX_Peripheral/src/xgpio.o
                               0x118ec (size before relaxing)
- .debug_str     0x0003ea86      0xf59 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_str     0x0003eab2      0xf59 ./src/CoX/CoX_Peripheral/src/xsysctl.o
                                0xfbe6 (size before relaxing)
- .debug_str     0x0003f9df      0x3db ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_str     0x0003fa0b      0x3db ./src/CoX/CoX_Peripheral/src/xuart.o
                                0xf51e (size before relaxing)
- .debug_str     0x0003fdba       0x9b ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_str     0x0003fde6       0x9b ./src/CoX/CoX_Peripheral/src/xwdt.o
                                0xbf92 (size before relaxing)
- .debug_str     0x0003fe55      0x101 ./src/main.o
+ .debug_str     0x0003fe81      0x101 ./src/main.o
                               0x2a2f3 (size before relaxing)
- .debug_str     0x0003ff56       0x98 ./src/tasks.o
-                               0xf0d1 (size before relaxing)
+ .debug_str     0x0003ff82       0x98 ./src/tasks.o
+                               0xf0fd (size before relaxing)
 
 .debug_loc      0x00000000     0x6780
  *(.debug_loc)
@@ -3884,7 +3883,7 @@ OUTPUT(FRDM_BRTOS.elf elf32-littlearm)
  .debug_ranges  0x00000a80       0x10 ./src/main.o
  .debug_ranges  0x00000a90       0x28 ./src/tasks.o
 
-.debug_macro    0x00000000     0x8649
+.debug_macro    0x00000000     0x864f
  .debug_macro   0x00000000      0x131 ./system/src/newlib/_exit.o
  .debug_macro   0x00000131      0x83e ./system/src/newlib/_exit.o
  .debug_macro   0x0000096f       0x9c ./system/src/newlib/_exit.o
@@ -3940,29 +3939,29 @@ OUTPUT(FRDM_BRTOS.elf elf32-littlearm)
  .debug_macro   0x00004d13       0x9b ./src/brtos/OSTime.o
  .debug_macro   0x00004dae      0x15f ./src/brtos/device.o
  .debug_macro   0x00004f0d      0x1f5 ./src/brtos/device.o
- .debug_macro   0x00005102       0x1c ./src/brtos/device.o
- .debug_macro   0x0000511e       0xea ./src/brtos/device.o
- .debug_macro   0x00005208       0x9b ./src/brtos/mbox.o
- .debug_macro   0x000052a3       0x9b ./src/brtos/queue.o
- .debug_macro   0x0000533e       0x9b ./src/brtos/semaphore.o
- .debug_macro   0x000053d9      0x118 ./src/Drivers/MMA8451/accel.o
- .debug_macro   0x000054f1       0xaf ./src/Drivers/DAC/DAC.o
- .debug_macro   0x000055a0       0xe4 ./src/Drivers/GPIOx.o
- .debug_macro   0x00005684     0x17ef ./src/Drivers/GPIOx.o
- .debug_macro   0x00006e73      0x206 ./src/Drivers/GPIOx.o
- .debug_macro   0x00007079      0x15e ./src/Drivers/UARTx.o
- .debug_macro   0x000071d7       0xcc ./src/Drivers/UARTx.o
- .debug_macro   0x000072a3      0x576 ./src/Drivers/UARTx.o
- .debug_macro   0x00007819      0x58f ./src/Drivers/UARTx.o
- .debug_macro   0x00007da8       0x10 ./src/Drivers/UARTx.o
- .debug_macro   0x00007db8       0x47 ./src/CoX/CoX_Peripheral/src/xcore.o
- .debug_macro   0x00007dff       0x6b ./src/CoX/CoX_Peripheral/src/xgpio.o
- .debug_macro   0x00007e6a      0x1a5 ./src/CoX/CoX_Peripheral/src/xgpio.o
- .debug_macro   0x0000800f      0x13d ./src/CoX/CoX_Peripheral/src/xsysctl.o
- .debug_macro   0x0000814c       0x25 ./src/CoX/CoX_Peripheral/src/xsysctl.o
- .debug_macro   0x00008171       0x62 ./src/CoX/CoX_Peripheral/src/xuart.o
- .debug_macro   0x000081d3       0x6b ./src/CoX/CoX_Peripheral/src/xwdt.o
- .debug_macro   0x0000823e       0x28 ./src/CoX/CoX_Peripheral/src/xwdt.o
- .debug_macro   0x00008266      0x22d ./src/main.o
- .debug_macro   0x00008493       0xa6 ./src/main.o
- .debug_macro   0x00008539      0x110 ./src/tasks.o
+ .debug_macro   0x00005102       0x22 ./src/brtos/device.o
+ .debug_macro   0x00005124       0xea ./src/brtos/device.o
+ .debug_macro   0x0000520e       0x9b ./src/brtos/mbox.o
+ .debug_macro   0x000052a9       0x9b ./src/brtos/queue.o
+ .debug_macro   0x00005344       0x9b ./src/brtos/semaphore.o
+ .debug_macro   0x000053df      0x118 ./src/Drivers/MMA8451/accel.o
+ .debug_macro   0x000054f7       0xaf ./src/Drivers/DAC/DAC.o
+ .debug_macro   0x000055a6       0xe4 ./src/Drivers/GPIOx.o
+ .debug_macro   0x0000568a     0x17ef ./src/Drivers/GPIOx.o
+ .debug_macro   0x00006e79      0x206 ./src/Drivers/GPIOx.o
+ .debug_macro   0x0000707f      0x15e ./src/Drivers/UARTx.o
+ .debug_macro   0x000071dd       0xcc ./src/Drivers/UARTx.o
+ .debug_macro   0x000072a9      0x576 ./src/Drivers/UARTx.o
+ .debug_macro   0x0000781f      0x58f ./src/Drivers/UARTx.o
+ .debug_macro   0x00007dae       0x10 ./src/Drivers/UARTx.o
+ .debug_macro   0x00007dbe       0x47 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_macro   0x00007e05       0x6b ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_macro   0x00007e70      0x1a5 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_macro   0x00008015      0x13d ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_macro   0x00008152       0x25 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_macro   0x00008177       0x62 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_macro   0x000081d9       0x6b ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_macro   0x00008244       0x28 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_macro   0x0000826c      0x22d ./src/main.o
+ .debug_macro   0x00008499       0xa6 ./src/main.o
+ .debug_macro   0x0000853f      0x110 ./src/tasks.o
