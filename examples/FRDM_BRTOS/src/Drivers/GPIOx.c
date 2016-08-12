@@ -5,26 +5,26 @@
  *      Author: gustavo
  */
 
+#include "xhw_types.h"
 #include "BRTOS.h"
-#include "GPIOx.h"
 #include "xsysctl.h"
 #include "xgpio.h"
 #include "xhw_memmap.h"
 #include "device.h"
 
-size_t GPIO_Write(OS_Device_Control_t *dev, void *string, size_t size ){
+static size_t GPIO_Write(OS_Device_Control_t *dev, void *string, size_t size ){
 	uint32_t temp = (uint32_t)string;
 	GPIOPinWrite(dev->device->base_address, temp, size);
 	return 0;
 }
 
-size_t GPIO_Read(OS_Device_Control_t *dev, char *string, size_t size ){
+static size_t GPIO_Read(OS_Device_Control_t *dev, char *string, size_t size ){
 	uint32_t temp = (uint32_t)string;
 	(void)size;
 	return GPIOPinRead(dev->device->base_address,temp);
 }
 
-size_t GPIO_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t value){
+static size_t GPIO_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t value){
 	uart_config_t *uart_conf = (uart_config_t *)dev->device->DriverData;
 
 	switch(request){
@@ -46,7 +46,7 @@ size_t GPIO_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t value){
 	return 0;
 }
 
-size_t GPIO_Get(OS_Device_Control_t *dev, uint32_t request){
+static size_t GPIO_Get(OS_Device_Control_t *dev, uint32_t request){
 	uint32_t ret;
 	gpio_config_t *uart_conf = (gpio_config_t *)dev->device->DriverData;
 	switch(request){

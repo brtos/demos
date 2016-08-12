@@ -1,4 +1,4 @@
-#include "UARTx.h"
+#include "xhw_types.h"
 #include "BRTOS.h"
 #include "xsysctl.h"
 #include "xgpio.h"
@@ -11,9 +11,9 @@
 #include "device.h"
 
 
-BRTOS_Sem   *SerialTX[3];
+static BRTOS_Sem   *SerialTX[3];
 // Declara um ponteiro para o bloco de controle da Porta Serial
-BRTOS_Queue  *SerialQ[3];
+static BRTOS_Queue  *SerialQ[3];
 
 
 //BRTOS_Sem   *SerialTX1;
@@ -142,7 +142,7 @@ unsigned long USART2IntHandler(void *pvCBData,
 }
 
 
-void Init_UART0(void *parameters)
+static void Init_UART0(void *parameters)
 {
 	uart_config_t *uart_conf = (uart_config_t *)parameters;
 	xtEventCallback UART0_INT_HANDLE = USART0IntHandler;
@@ -219,7 +219,7 @@ void Init_UART0(void *parameters)
 
 
 
-void Init_UART1(void *parameters)
+static void Init_UART1(void *parameters)
 {
 	uart_config_t *uart_conf = (uart_config_t *)parameters;
 	xtEventCallback UART1_INT_HANDLE = USART1IntHandler;
@@ -295,7 +295,7 @@ void Init_UART1(void *parameters)
 	xIntEnable(INT_UART1);
 }
 
-void Init_UART2(void *parameters)
+static void Init_UART2(void *parameters)
 {
 	uart_config_t *uart_conf = (uart_config_t *)parameters;
 	xtEventCallback UART2_INT_HANDLE = USART2IntHandler;
@@ -373,7 +373,7 @@ void Init_UART2(void *parameters)
 
 
 
-size_t UART_Write(OS_Device_Control_t *dev, char *string, size_t size ){
+static size_t UART_Write(OS_Device_Control_t *dev, char *string, size_t size ){
 	size_t nbytes = 0;
 	while(size){
 		xHWREGB(dev->device->base_address + UART_012_D) = (char)*string;
@@ -390,7 +390,7 @@ failed_tx:
 	return nbytes;
 }
 
-size_t UART_Read(OS_Device_Control_t *dev, char *string, size_t size ){
+static size_t UART_Read(OS_Device_Control_t *dev, char *string, size_t size ){
 	size_t nbytes = 0;
 	uart_config_t *uart_conf = (uart_config_t *)dev->device->DriverData;
 	while(nbytes < size){
@@ -402,7 +402,7 @@ failed_rx:
 	return nbytes;
 }
 
-size_t UART_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t value){
+static size_t UART_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t value){
 	uart_config_t *uart_conf = (uart_config_t *)dev->device->DriverData;
 
 	switch(request){
@@ -424,7 +424,7 @@ size_t UART_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t value){
 	return 0;
 }
 
-size_t UART_Get(OS_Device_Control_t *dev, uint32_t request){
+static size_t UART_Get(OS_Device_Control_t *dev, uint32_t request){
 	uint32_t ret;
 	uart_config_t *uart_conf = (uart_config_t *)dev->device->DriverData;
 	switch(request){
@@ -450,7 +450,7 @@ size_t UART_Get(OS_Device_Control_t *dev, uint32_t request){
 	return ret;
 }
 
-const device_api_t UART_api ={
+static const device_api_t UART_api ={
 		.read = (Device_Control_read_t)UART_Read,
 		.write = (Device_Control_write_t)UART_Write,
 		.set = (Device_Control_set_t)UART_Set,

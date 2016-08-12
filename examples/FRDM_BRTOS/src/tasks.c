@@ -31,7 +31,6 @@
 #include "xhw_uart.h"
 #include "xcore.h"
 #include "DAC.h"
-#include "UARTx.h"
 
 
 // Declara um ponteiro para o bloco de controle da Porta Serial
