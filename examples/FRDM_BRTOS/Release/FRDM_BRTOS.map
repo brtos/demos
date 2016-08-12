@@ -1,0 +1,2370 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                              ./system/src/cmsis/system_MKL25Z4.o (__aeabi_uidiv)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                              ./src/brtos/OSInfo.o (__aeabi_idiv)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                              ./system/src/newlib/_sbrk.o (__errno)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o) (_impure_ptr)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+                              ./src/brtos/OSTime.o (memcpy)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+                              ./system/src/kl25-sc/rcm.o (printf)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+                              ./src/brtos/device.o (strcmp)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+                              ./src/brtos/device.o (strlen)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+                              ./src/brtos/device.o (strncmp)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o) (__sinit)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (_fwalk)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (memset)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (_malloc_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o) (_vfprintf_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (__sread)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_write_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_close_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o) (_fflush_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_lseek_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o) (memchr)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o) (memmove)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o) (_free_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o) (_realloc_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o) (_read_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o) (_fstat_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o) (_isatty_r)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+
+Allocating common symbols
+Common symbol       size              file
+
+BRTOS_Sem_Table     0x20              ./src/brtos/BRTOS.o
+StackAddress        0x4               ./src/brtos/BRTOS.o
+errno               0x4               ./system/src/newlib/_syscalls.o
+BRTOS_Queue_Table   0x24              ./src/brtos/BRTOS.o
+NumberOfInstalledTasks
+                    0x1               ./src/brtos/BRTOS.o
+SPvalue             0x4               ./src/hal/HAL.o
+PriorityVector      0x20              ./src/brtos/BRTOS.o
+SelectedTask        0x1               ./src/brtos/BRTOS.o
+currentTask         0x1               ./src/brtos/BRTOS.o
+QUEUE_STACK         0x100             ./src/brtos/BRTOS.o
+SerialQ             0xc               ./src/Drivers/UARTx.o
+SerialTX            0xc               ./src/Drivers/UARTx.o
+Data                0x4               ./src/main.o
+BRTOS_Mutex_Table   0x18              ./src/brtos/BRTOS.o
+BRTOS_Mbox_Table    0x18              ./src/brtos/BRTOS.o
+STACK               0x800             ./src/brtos/BRTOS.o
+Head                0x4               ./src/brtos/BRTOS.o
+ContextTask         0x168             ./src/brtos/BRTOS.o
+Tail                0x4               ./src/brtos/BRTOS.o
+BRTOS_OS_QUEUE_Table
+                    0x3c              ./src/brtos/BRTOS.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./system/src/newlib/_cxx.o
+ .data          0x00000000        0x0 ./system/src/newlib/_cxx.o
+ .bss           0x00000000        0x0 ./system/src/newlib/_cxx.o
+ .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00000000        0x8 ./system/src/newlib/_cxx.o
+ .text.__cxa_pure_virtual
+                0x00000000        0x8 ./system/src/newlib/_cxx.o
+ .debug_info    0x00000000      0x4c6 ./system/src/newlib/_cxx.o
+ .debug_abbrev  0x00000000      0x1a4 ./system/src/newlib/_cxx.o
+ .debug_aranges
+                0x00000000       0x28 ./system/src/newlib/_cxx.o
+ .debug_ranges  0x00000000       0x18 ./system/src/newlib/_cxx.o
+ .debug_line    0x00000000      0x1b6 ./system/src/newlib/_cxx.o
+ .debug_str     0x00000000      0x357 ./system/src/newlib/_cxx.o
+ .comment       0x00000000       0x71 ./system/src/newlib/_cxx.o
+ .debug_frame   0x00000000       0x40 ./system/src/newlib/_cxx.o
+ .ARM.attributes
+                0x00000000       0x32 ./system/src/newlib/_cxx.o
+ .text          0x00000000        0x0 ./system/src/newlib/_exit.o
+ .data          0x00000000        0x0 ./system/src/newlib/_exit.o
+ .bss           0x00000000        0x0 ./system/src/newlib/_exit.o
+ .text.abort    0x00000000        0x8 ./system/src/newlib/_exit.o
+ .text          0x00000000        0x0 ./system/src/newlib/_sbrk.o
+ .data          0x00000000        0x0 ./system/src/newlib/_sbrk.o
+ .bss           0x00000000        0x0 ./system/src/newlib/_sbrk.o
+ .text._sbrk    0x00000000       0x44 ./system/src/newlib/_sbrk.o
+ .bss.current_heap_end.4310
+                0x00000000        0x4 ./system/src/newlib/_sbrk.o
+ .debug_info    0x00000000      0x121 ./system/src/newlib/_sbrk.o
+ .debug_abbrev  0x00000000       0xb8 ./system/src/newlib/_sbrk.o
+ .debug_loc     0x00000000       0x5f ./system/src/newlib/_sbrk.o
+ .debug_aranges
+                0x00000000       0x20 ./system/src/newlib/_sbrk.o
+ .debug_ranges  0x00000000       0x10 ./system/src/newlib/_sbrk.o
+ .debug_line    0x00000000       0xc0 ./system/src/newlib/_sbrk.o
+ .debug_str     0x00000000      0x201 ./system/src/newlib/_sbrk.o
+ .comment       0x00000000       0x71 ./system/src/newlib/_sbrk.o
+ .debug_frame   0x00000000       0x28 ./system/src/newlib/_sbrk.o
+ .ARM.attributes
+                0x00000000       0x32 ./system/src/newlib/_sbrk.o
+ .text          0x00000000        0x0 ./system/src/newlib/_startup.o
+ .data          0x00000000        0x0 ./system/src/newlib/_startup.o
+ .bss           0x00000000        0x0 ./system/src/newlib/_startup.o
+ .text.__initialize_data
+                0x00000000       0x10 ./system/src/newlib/_startup.o
+ .text.__initialize_bss
+                0x00000000       0x10 ./system/src/newlib/_startup.o
+ .text.__run_init_array
+                0x00000000       0x4c ./system/src/newlib/_startup.o
+ .text.__run_fini_array
+                0x00000000       0x34 ./system/src/newlib/_startup.o
+ .text          0x00000000        0x0 ./system/src/newlib/_syscalls.o
+ .data          0x00000000        0x0 ./system/src/newlib/_syscalls.o
+ .bss           0x00000000        0x0 ./system/src/newlib/_syscalls.o
+ .text.raise    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text.kill     0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._chown   0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._close   0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._execve  0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._fork    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._fstat   0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._getpid  0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._gettimeofday
+                0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._isatty  0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._kill    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._link    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._lseek   0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._open    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._read    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._readlink
+                0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._stat    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._symlink
+                0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._times   0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._unlink  0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._wait    0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .text._write   0x00000000       0x10 ./system/src/newlib/_syscalls.o
+ .data.environ  0x00000000        0x4 ./system/src/newlib/_syscalls.o
+ .bss.__env     0x00000000        0x4 ./system/src/newlib/_syscalls.o
+ .bss.__dso_handle
+                0x00000000        0x4 ./system/src/newlib/_syscalls.o
+ COMMON         0x00000000        0x4 ./system/src/newlib/_syscalls.o
+ .text          0x00000000        0x0 ./system/src/newlib/assert.o
+ .data          0x00000000        0x0 ./system/src/newlib/assert.o
+ .bss           0x00000000        0x0 ./system/src/newlib/assert.o
+ .text.__assert_func
+                0x00000000        0x8 ./system/src/newlib/assert.o
+ .debug_info    0x00000000      0x10b ./system/src/newlib/assert.o
+ .debug_abbrev  0x00000000       0xa6 ./system/src/newlib/assert.o
+ .debug_loc     0x00000000       0x84 ./system/src/newlib/assert.o
+ .debug_aranges
+                0x00000000       0x20 ./system/src/newlib/assert.o
+ .debug_ranges  0x00000000       0x10 ./system/src/newlib/assert.o
+ .debug_line    0x00000000       0xd7 ./system/src/newlib/assert.o
+ .debug_str     0x00000000      0x1ea ./system/src/newlib/assert.o
+ .comment       0x00000000       0x71 ./system/src/newlib/assert.o
+ .debug_frame   0x00000000       0x28 ./system/src/newlib/assert.o
+ .ARM.attributes
+                0x00000000       0x32 ./system/src/newlib/assert.o
+ .text          0x00000000        0x0 ./system/src/kl25-sc/rcm.o
+ .data          0x00000000        0x0 ./system/src/kl25-sc/rcm.o
+ .bss           0x00000000        0x0 ./system/src/kl25-sc/rcm.o
+ .text.outSRS   0x00000000      0x19c ./system/src/kl25-sc/rcm.o
+ .rodata.str1.4
+                0x00000000      0x1bb ./system/src/kl25-sc/rcm.o
+ .debug_info    0x00000000      0x333 ./system/src/kl25-sc/rcm.o
+ .debug_abbrev  0x00000000       0xe8 ./system/src/kl25-sc/rcm.o
+ .debug_aranges
+                0x00000000       0x20 ./system/src/kl25-sc/rcm.o
+ .debug_ranges  0x00000000       0x10 ./system/src/kl25-sc/rcm.o
+ .debug_line    0x00000000      0x1e7 ./system/src/kl25-sc/rcm.o
+ .debug_str     0x00000000      0x235 ./system/src/kl25-sc/rcm.o
+ .comment       0x00000000       0x71 ./system/src/kl25-sc/rcm.o
+ .debug_frame   0x00000000       0x28 ./system/src/kl25-sc/rcm.o
+ .ARM.attributes
+                0x00000000       0x32 ./system/src/kl25-sc/rcm.o
+ .text          0x00000000        0x0 ./system/src/diag/Trace.o
+ .data          0x00000000        0x0 ./system/src/diag/Trace.o
+ .bss           0x00000000        0x0 ./system/src/diag/Trace.o
+ .debug_line    0x00000000        0x0 ./system/src/diag/Trace.o
+ .debug_str     0x00000000      0x107 ./system/src/diag/Trace.o
+ .comment       0x00000000       0x71 ./system/src/diag/Trace.o
+ .ARM.attributes
+                0x00000000       0x32 ./system/src/diag/Trace.o
+ .text          0x00000000        0x0 ./system/src/diag/trace_impl.o
+ .data          0x00000000        0x0 ./system/src/diag/trace_impl.o
+ .bss           0x00000000        0x0 ./system/src/diag/trace_impl.o
+ .debug_line    0x00000000        0x0 ./system/src/diag/trace_impl.o
+ .debug_str     0x00000000      0x10c ./system/src/diag/trace_impl.o
+ .comment       0x00000000       0x71 ./system/src/diag/trace_impl.o
+ .ARM.attributes
+                0x00000000       0x32 ./system/src/diag/trace_impl.o
+ .text          0x00000000        0x0 ./system/src/cortexm/_initialize_hardware.o
+ .data          0x00000000        0x0 ./system/src/cortexm/_initialize_hardware.o
+ .bss           0x00000000        0x0 ./system/src/cortexm/_initialize_hardware.o
+ .text          0x00000000        0x0 ./system/src/cortexm/_reset_hardware.o
+ .data          0x00000000        0x0 ./system/src/cortexm/_reset_hardware.o
+ .bss           0x00000000        0x0 ./system/src/cortexm/_reset_hardware.o
+ .text          0x00000000        0x0 ./system/src/cortexm/exception_handlers.o
+ .data          0x00000000        0x0 ./system/src/cortexm/exception_handlers.o
+ .bss           0x00000000        0x0 ./system/src/cortexm/exception_handlers.o
+ .text          0x00000000        0x0 ./system/src/cmsis/system_MKL25Z4.o
+ .data          0x00000000        0x0 ./system/src/cmsis/system_MKL25Z4.o
+ .bss           0x00000000        0x0 ./system/src/cmsis/system_MKL25Z4.o
+ .text          0x00000000        0x0 ./system/src/cmsis/vectors_MKL25Z4.o
+ .data          0x00000000        0x0 ./system/src/cmsis/vectors_MKL25Z4.o
+ .bss           0x00000000        0x0 ./system/src/cmsis/vectors_MKL25Z4.o
+ .text          0x00000000        0x0 ./src/hal/HAL.o
+ .data          0x00000000        0x0 ./src/hal/HAL.o
+ .bss           0x00000000        0x0 ./src/hal/HAL.o
+ .text.OSRTCSetup
+                0x00000000        0x4 ./src/hal/HAL.o
+ .text          0x00000000        0x0 ./src/brtos/BRTOS.o
+ .data          0x00000000        0x0 ./src/brtos/BRTOS.o
+ .bss           0x00000000        0x0 ./src/brtos/BRTOS.o
+ .text.OSGetTickCount
+                0x00000000       0x1c ./src/brtos/BRTOS.o
+ .text.OSDelayTaskHMSM
+                0x00000000       0x80 ./src/brtos/BRTOS.o
+ .text.OSBlockPriority
+                0x00000000       0x74 ./src/brtos/BRTOS.o
+ .text.OSUnBlockPriority
+                0x00000000       0x4c ./src/brtos/BRTOS.o
+ .text.OSBlockTask
+                0x00000000       0x98 ./src/brtos/BRTOS.o
+ .text.OSUnBlockTask
+                0x00000000       0x5c ./src/brtos/BRTOS.o
+ .text.OSBlockMultipleTask
+                0x00000000       0x84 ./src/brtos/BRTOS.o
+ .text.OSUnBlockMultipleTask
+                0x00000000       0x9c ./src/brtos/BRTOS.o
+ .bss.DutyCnt   0x00000000        0x2 ./src/brtos/BRTOS.o
+ .data.flag_load
+                0x00000000        0x1 ./src/brtos/BRTOS.o
+ .bss.OSDuty    0x00000000        0x4 ./src/brtos/BRTOS.o
+ .bss.OSDutyTmp
+                0x00000000        0x4 ./src/brtos/BRTOS.o
+ .bss.LastOSDuty
+                0x00000000        0x4 ./src/brtos/BRTOS.o
+ .data.version  0x00000000        0x4 ./src/brtos/BRTOS.o
+ .text          0x00000000        0x0 ./src/brtos/OSInfo.o
+ .data          0x00000000        0x0 ./src/brtos/OSInfo.o
+ .bss           0x00000000        0x0 ./src/brtos/OSInfo.o
+ .text.mem_cpy  0x00000000       0x1c ./src/brtos/OSInfo.o
+ .text.PrintDecimal
+                0x00000000       0xb0 ./src/brtos/OSInfo.o
+ .text.OSTaskList
+                0x00000000      0x214 ./src/brtos/OSInfo.o
+ .text.OSAvailableMemory
+                0x00000000       0xc8 ./src/brtos/OSInfo.o
+ .text.OSUptimeInfo
+                0x00000000       0xbc ./src/brtos/OSInfo.o
+ .rodata.str1.4
+                0x00000000      0x14c ./src/brtos/OSInfo.o
+ .debug_info    0x00000000      0x93c ./src/brtos/OSInfo.o
+ .debug_abbrev  0x00000000      0x1a6 ./src/brtos/OSInfo.o
+ .debug_loc     0x00000000      0x5ad ./src/brtos/OSInfo.o
+ .debug_aranges
+                0x00000000       0x40 ./src/brtos/OSInfo.o
+ .debug_ranges  0x00000000       0x30 ./src/brtos/OSInfo.o
+ .debug_line    0x00000000      0x276 ./src/brtos/OSInfo.o
+ .debug_str     0x00000000      0x3b9 ./src/brtos/OSInfo.o
+ .comment       0x00000000       0x71 ./src/brtos/OSInfo.o
+ .debug_frame   0x00000000       0xa8 ./src/brtos/OSInfo.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/brtos/OSInfo.o
+ .text          0x00000000        0x0 ./src/brtos/OSTime.o
+ .data          0x00000000        0x0 ./src/brtos/OSTime.o
+ .bss           0x00000000        0x0 ./src/brtos/OSTime.o
+ .text.OSUpdateTime
+                0x00000000       0x4c ./src/brtos/OSTime.o
+ .text.OSUpdateDate
+                0x00000000       0x54 ./src/brtos/OSTime.o
+ .text.OSResetDate
+                0x00000000       0x1c ./src/brtos/OSTime.o
+ .text.OSUptime
+                0x00000000       0x28 ./src/brtos/OSTime.o
+ .text.OSUpDate
+                0x00000000       0x18 ./src/brtos/OSTime.o
+ .text.OSUpdateCalendar
+                0x00000000       0xe4 ./src/brtos/OSTime.o
+ .text.GetCalendar
+                0x00000000       0x14 ./src/brtos/OSTime.o
+ .text.SetCalendar
+                0x00000000       0x18 ./src/brtos/OSTime.o
+ .text.Init_Calendar
+                0x00000000       0x2c ./src/brtos/OSTime.o
+ .bss.LeapMonth
+                0x00000000        0x1 ./src/brtos/OSTime.o
+ .bss.OSRtc     0x00000000        0x8 ./src/brtos/OSTime.o
+ .rodata.MonthLength
+                0x00000000        0xd ./src/brtos/OSTime.o
+ .text          0x00000000        0x0 ./src/brtos/device.o
+ .data          0x00000000        0x0 ./src/brtos/device.o
+ .bss           0x00000000        0x0 ./src/brtos/device.o
+ .text.OSDevGet
+                0x00000000        0xc ./src/brtos/device.o
+ .text          0x00000000        0x0 ./src/brtos/mbox.o
+ .data          0x00000000        0x0 ./src/brtos/mbox.o
+ .bss           0x00000000        0x0 ./src/brtos/mbox.o
+ .text.OSMboxDelete
+                0x00000000       0x34 ./src/brtos/mbox.o
+ .text          0x00000000        0x0 ./src/brtos/mutex.o
+ .data          0x00000000        0x0 ./src/brtos/mutex.o
+ .bss           0x00000000        0x0 ./src/brtos/mutex.o
+ .text.OSMutexCreate
+                0x00000000       0xc4 ./src/brtos/mutex.o
+ .text.OSMutexDelete
+                0x00000000       0x34 ./src/brtos/mutex.o
+ .text.OSMutexAcquire
+                0x00000000      0x288 ./src/brtos/mutex.o
+ .text.OSMutexRelease
+                0x00000000       0xd0 ./src/brtos/mutex.o
+ .debug_info    0x00000000      0x52f ./src/brtos/mutex.o
+ .debug_abbrev  0x00000000      0x1ca ./src/brtos/mutex.o
+ .debug_loc     0x00000000      0x2e8 ./src/brtos/mutex.o
+ .debug_aranges
+                0x00000000       0x38 ./src/brtos/mutex.o
+ .debug_ranges  0x00000000       0x28 ./src/brtos/mutex.o
+ .debug_line    0x00000000      0x295 ./src/brtos/mutex.o
+ .debug_str     0x00000000      0x3cd ./src/brtos/mutex.o
+ .comment       0x00000000       0x71 ./src/brtos/mutex.o
+ .debug_frame   0x00000000       0x94 ./src/brtos/mutex.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/brtos/mutex.o
+ .text          0x00000000        0x0 ./src/brtos/queue.o
+ .data          0x00000000        0x0 ./src/brtos/queue.o
+ .bss           0x00000000        0x0 ./src/brtos/queue.o
+ .text.OSWQueue
+                0x00000000       0x40 ./src/brtos/queue.o
+ .text.OSRQueue
+                0x00000000       0x40 ./src/brtos/queue.o
+ .text.OSQueueClean
+                0x00000000       0x1c ./src/brtos/queue.o
+ .text.OSQueue32Create
+                0x00000000       0x88 ./src/brtos/queue.o
+ .text.OSWQueue32
+                0x00000000       0x40 ./src/brtos/queue.o
+ .text.OSRQueue32
+                0x00000000       0x40 ./src/brtos/queue.o
+ .text.OSCleanQueue32
+                0x00000000       0x1c ./src/brtos/queue.o
+ .text          0x00000000        0x0 ./src/brtos/semaphore.o
+ .data          0x00000000        0x0 ./src/brtos/semaphore.o
+ .bss           0x00000000        0x0 ./src/brtos/semaphore.o
+ .text.OSSemBinaryCreate
+                0x00000000       0xb8 ./src/brtos/semaphore.o
+ .text.OSSemDelete
+                0x00000000       0x30 ./src/brtos/semaphore.o
+ .text          0x00000000        0x0 ./src/brtos/stimer.o
+ .data          0x00000000        0x0 ./src/brtos/stimer.o
+ .bss           0x00000000        0x0 ./src/brtos/stimer.o
+ .text.Subir    0x00000000       0x58 ./src/brtos/stimer.o
+ .text.Descer   0x00000000       0x68 ./src/brtos/stimer.o
+ .text.BRTOSTimerTask
+                0x00000000      0x2d0 ./src/brtos/stimer.o
+ .text.OSTimerInit
+                0x00000000       0x80 ./src/brtos/stimer.o
+ .text.OSTimerSet
+                0x00000000      0x19c ./src/brtos/stimer.o
+ .text.OSTimerGet
+                0x00000000       0x6c ./src/brtos/stimer.o
+ .text.OSTimerStart
+                0x00000000       0xec ./src/brtos/stimer.o
+ .text.OSTimerStop
+                0x00000000       0xd4 ./src/brtos/stimer.o
+ .rodata.str1.4
+                0x00000000       0x12 ./src/brtos/stimer.o
+ .bss.BRTOS_TIMER_VECTOR
+                0x00000000       0xd0 ./src/brtos/stimer.o
+ .bss.BRTOS_TMR_PING
+                0x00000000       0x24 ./src/brtos/stimer.o
+ .bss.BRTOS_TMR_PONG
+                0x00000000       0x24 ./src/brtos/stimer.o
+ .debug_info    0x00000000      0xa0d ./src/brtos/stimer.o
+ .debug_abbrev  0x00000000      0x30e ./src/brtos/stimer.o
+ .debug_loc     0x00000000      0x8ca ./src/brtos/stimer.o
+ .debug_aranges
+                0x00000000       0x58 ./src/brtos/stimer.o
+ .debug_ranges  0x00000000       0x60 ./src/brtos/stimer.o
+ .debug_line    0x00000000      0x3b6 ./src/brtos/stimer.o
+ .debug_str     0x00000000      0x4dd ./src/brtos/stimer.o
+ .comment       0x00000000       0x71 ./src/brtos/stimer.o
+ .debug_frame   0x00000000      0x120 ./src/brtos/stimer.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/brtos/stimer.o
+ .text          0x00000000        0x0 ./src/Drivers/SPI/spi_cox.o
+ .data          0x00000000        0x0 ./src/Drivers/SPI/spi_cox.o
+ .bss           0x00000000        0x0 ./src/Drivers/SPI/spi_cox.o
+ .text.init_SPI
+                0x00000000       0xa8 ./src/Drivers/SPI/spi_cox.o
+ .text.SPI0_SendChar
+                0x00000000       0x38 ./src/Drivers/SPI/spi_cox.o
+ .text.SPI0_GetChar
+                0x00000000       0x30 ./src/Drivers/SPI/spi_cox.o
+ .text.SPI1_SendChar
+                0x00000000       0x30 ./src/Drivers/SPI/spi_cox.o
+ .text.SPI1_GetChar
+                0x00000000       0x14 ./src/Drivers/SPI/spi_cox.o
+ .bss.SPI0Data  0x00000000        0x1 ./src/Drivers/SPI/spi_cox.o
+ .bss.SPI1Data  0x00000000        0x1 ./src/Drivers/SPI/spi_cox.o
+ .debug_info    0x00000000      0x4da ./src/Drivers/SPI/spi_cox.o
+ .debug_abbrev  0x00000000      0x154 ./src/Drivers/SPI/spi_cox.o
+ .debug_loc     0x00000000      0x105 ./src/Drivers/SPI/spi_cox.o
+ .debug_aranges
+                0x00000000       0x40 ./src/Drivers/SPI/spi_cox.o
+ .debug_ranges  0x00000000       0x30 ./src/Drivers/SPI/spi_cox.o
+ .debug_line    0x00000000      0x1e8 ./src/Drivers/SPI/spi_cox.o
+ .debug_str     0x00000000      0x352 ./src/Drivers/SPI/spi_cox.o
+ .comment       0x00000000       0x71 ./src/Drivers/SPI/spi_cox.o
+ .debug_frame   0x00000000       0x84 ./src/Drivers/SPI/spi_cox.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/Drivers/SPI/spi_cox.o
+ .text          0x00000000        0x0 ./src/Drivers/MMA8451/accel.o
+ .data          0x00000000        0x0 ./src/Drivers/MMA8451/accel.o
+ .bss           0x00000000        0x0 ./src/Drivers/MMA8451/accel.o
+ .text          0x00000000        0x0 ./src/Drivers/LPO/LPO.o
+ .data          0x00000000        0x0 ./src/Drivers/LPO/LPO.o
+ .bss           0x00000000        0x0 ./src/Drivers/LPO/LPO.o
+ .text.LPO_Init
+                0x00000000       0x70 ./src/Drivers/LPO/LPO.o
+ .text.Reconfigure_LPTM
+                0x00000000       0x10 ./src/Drivers/LPO/LPO.o
+ .text.GetTime_LPTM
+                0x00000000       0x10 ./src/Drivers/LPO/LPO.o
+ .text.Clear_LPTM
+                0x00000000       0x10 ./src/Drivers/LPO/LPO.o
+ .text.LPTMDisable
+                0x00000000        0xc ./src/Drivers/LPO/LPO.o
+ .text.LPTMEnable
+                0x00000000        0xc ./src/Drivers/LPO/LPO.o
+ .debug_info    0x00000000      0x48a ./src/Drivers/LPO/LPO.o
+ .debug_abbrev  0x00000000      0x187 ./src/Drivers/LPO/LPO.o
+ .debug_loc     0x00000000       0x4d ./src/Drivers/LPO/LPO.o
+ .debug_aranges
+                0x00000000       0x48 ./src/Drivers/LPO/LPO.o
+ .debug_ranges  0x00000000       0x38 ./src/Drivers/LPO/LPO.o
+ .debug_line    0x00000000      0x1a9 ./src/Drivers/LPO/LPO.o
+ .debug_str     0x00000000      0x349 ./src/Drivers/LPO/LPO.o
+ .comment       0x00000000       0x71 ./src/Drivers/LPO/LPO.o
+ .debug_frame   0x00000000       0x80 ./src/Drivers/LPO/LPO.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/Drivers/LPO/LPO.o
+ .text          0x00000000        0x0 ./src/Drivers/DAC/DAC.o
+ .data          0x00000000        0x0 ./src/Drivers/DAC/DAC.o
+ .bss           0x00000000        0x0 ./src/Drivers/DAC/DAC.o
+ .text          0x00000000        0x0 ./src/Drivers/CPU/cpu.o
+ .data          0x00000000        0x0 ./src/Drivers/CPU/cpu.o
+ .bss           0x00000000        0x0 ./src/Drivers/CPU/cpu.o
+ .text.enable_irq
+                0x00000000       0x34 ./src/Drivers/CPU/cpu.o
+ .debug_info    0x00000000      0x190 ./src/Drivers/CPU/cpu.o
+ .debug_abbrev  0x00000000       0xd2 ./src/Drivers/CPU/cpu.o
+ .debug_loc     0x00000000       0x21 ./src/Drivers/CPU/cpu.o
+ .debug_aranges
+                0x00000000       0x20 ./src/Drivers/CPU/cpu.o
+ .debug_ranges  0x00000000       0x10 ./src/Drivers/CPU/cpu.o
+ .debug_line    0x00000000      0x145 ./src/Drivers/CPU/cpu.o
+ .debug_str     0x00000000      0x21e ./src/Drivers/CPU/cpu.o
+ .comment       0x00000000       0x71 ./src/Drivers/CPU/cpu.o
+ .debug_frame   0x00000000       0x2c ./src/Drivers/CPU/cpu.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/Drivers/CPU/cpu.o
+ .text          0x00000000        0x0 ./src/Drivers/GPIOx.o
+ .data          0x00000000        0x0 ./src/Drivers/GPIOx.o
+ .bss           0x00000000        0x0 ./src/Drivers/GPIOx.o
+ .text          0x00000000        0x0 ./src/Drivers/UARTx.o
+ .data          0x00000000        0x0 ./src/Drivers/UARTx.o
+ .bss           0x00000000        0x0 ./src/Drivers/UARTx.o
+ .text          0x00000000        0x0 ./src/Drivers/system.o
+ .data          0x00000000        0x0 ./src/Drivers/system.o
+ .bss           0x00000000        0x0 ./src/Drivers/system.o
+ .text.Clock_init
+                0x00000000       0xb8 ./src/Drivers/system.o
+ .text.ReEnable_LLWU
+                0x00000000       0x20 ./src/Drivers/system.o
+ .text.Enable_LLS
+                0x00000000       0x20 ./src/Drivers/system.o
+ .text.Enable_LLWU
+                0x00000000       0x30 ./src/Drivers/system.o
+ .text.Enable_INT_Pin
+                0x00000000       0x3c ./src/Drivers/system.o
+ .debug_info    0x00000000      0x638 ./src/Drivers/system.o
+ .debug_abbrev  0x00000000      0x14e ./src/Drivers/system.o
+ .debug_aranges
+                0x00000000       0x40 ./src/Drivers/system.o
+ .debug_ranges  0x00000000       0x30 ./src/Drivers/system.o
+ .debug_line    0x00000000      0x21b ./src/Drivers/system.o
+ .debug_str     0x00000000      0x3e2 ./src/Drivers/system.o
+ .comment       0x00000000       0x71 ./src/Drivers/system.o
+ .debug_frame   0x00000000       0x70 ./src/Drivers/system.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/Drivers/system.o
+ .text          0x00000000        0x0 ./src/Drivers/utils.o
+ .data          0x00000000        0x0 ./src/Drivers/utils.o
+ .bss           0x00000000        0x0 ./src/Drivers/utils.o
+ .text.LWordSwap
+                0x00000000       0x1c ./src/Drivers/utils.o
+ .text.Print4Digits
+                0x00000000      0x128 ./src/Drivers/utils.o
+ .text.Print3Digits
+                0x00000000       0xac ./src/Drivers/utils.o
+ .text.Print2Digits
+                0x00000000       0x4c ./src/Drivers/utils.o
+ .debug_info    0x00000000      0x2a5 ./src/Drivers/utils.o
+ .debug_abbrev  0x00000000       0xbb ./src/Drivers/utils.o
+ .debug_loc     0x00000000      0x895 ./src/Drivers/utils.o
+ .debug_aranges
+                0x00000000       0x38 ./src/Drivers/utils.o
+ .debug_ranges  0x00000000       0x28 ./src/Drivers/utils.o
+ .debug_line    0x00000000      0x20c ./src/Drivers/utils.o
+ .debug_str     0x00000000      0x244 ./src/Drivers/utils.o
+ .comment       0x00000000       0x71 ./src/Drivers/utils.o
+ .debug_frame   0x00000000       0x7c ./src/Drivers/utils.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/Drivers/utils.o
+ .text          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .data          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .bss           0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.xADCConfigure
+                0x00000000       0x30 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.xADCStepConfigure
+                0x00000000       0x68 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.xADCCompConditionConfig
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.xADCIntCallbackInit
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCIntHandler
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.xADCDataGet
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCConfigure
+                0x00000000       0x48 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCTemperatureSensorConfigure
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCBandgapConfigure
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCMuxSelect
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCConSpeedSelect
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCSingleEndedChannelEnable
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCDiffChannelEnable
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCIntEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCIntDisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCalibrationIsFailed
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCalibrationFailedFlagClear
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCProcessorTrigger
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCConvertStop
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCDataGet
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCOffsetDataGet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCalibrationEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCalibrationDisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCAsynClkOutputEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCAsynClkOutputDisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCalibrationDone
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCRefVoltageSet
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCHardwareAverageEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCHardwareAverageDisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCHardwareAverageSet
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCompDataSet
+                0x00000000       0x30 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCompEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCompDisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCCompFuncRangeSet
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCDMAEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCDMADisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCPowerModeSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCSampleTimeSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCGainSet
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCLongSampleTimeSet
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCSingleResolutionSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCDifferentialResolutionSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADCAlternateTriggerEnable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADC0TPMTriggerEnable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text.ADC0PretriggerSet
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .bss.g_pfnADCHandlerCallbacks
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_info    0x00000000      0x98d ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_abbrev  0x00000000      0x158 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_loc     0x00000000      0x49c ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_aranges
+                0x00000000      0x180 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_ranges  0x00000000      0x170 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_line    0x00000000      0x44e ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_str     0x00000000      0x5fb ./src/CoX/CoX_Peripheral/src/xadc.o
+ .comment       0x00000000       0x71 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .debug_frame   0x00000000      0x30c ./src/CoX/CoX_Peripheral/src/xadc.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/CoX/CoX_Peripheral/src/xadc.o
+ .text          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .data          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .bss           0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.IntDefaultHandler
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUcpsid
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUprimask
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUcpsie
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUwfi  0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUbasepriSet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUbasepriGet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUpspSet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUpspGet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUmspSet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xCPUmspGet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntMasterEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntMasterDisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntPrioritySet
+                0x00000000       0x70 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntPriorityGet
+                0x00000000       0x58 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntDisable
+                0x00000000       0x90 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntPendSet
+                0x00000000       0x78 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntPendClear
+                0x00000000       0x78 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntPriorityMaskSet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xIntPriorityMaskGet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickEnable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickDisable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickIntEnable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickIntDisable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickPeriodSet
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickPeriodGet
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickValueGet
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickPendSet
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xSysTickPendClr
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xPendSVPendSet
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text.xPendSVPendClr
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .rodata.g_pulRegs
+                0x00000000       0x40 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .text          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xdebug.o
+ .data          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xdebug.o
+ .bss           0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xdebug.o
+ .debug_line    0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xdebug.o
+ .debug_str     0x00000000      0x113 ./src/CoX/CoX_Peripheral/src/xdebug.o
+ .comment       0x00000000       0x71 ./src/CoX/CoX_Peripheral/src/xdebug.o
+ .ARM.attributes
+                0x00000000       0x32 ./src/CoX/CoX_Peripheral/src/xdebug.o
+ .text          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .data          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .bss           0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.PORTAIntHandler
+                0x00000000       0x58 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.PORTDIntHandler
+                0x00000000       0x58 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.xGPIODirModeGet
+                0x00000000       0x28 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIODirModeGet
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinIntEnable
+                0x00000000       0x34 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinIntDisable
+                0x00000000       0x2c ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinIntCallbackInit
+                0x00000000       0x4c ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinIntStatus
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinIntClear
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIODMAEdgeSet
+                0x00000000       0x34 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinSet
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinToggle
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinMaskSet
+                0x00000000       0x40 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPortMaskGet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinPortDoutGet
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPullConfigure
+                0x00000000       0x3c ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPassiveConfigure
+                0x00000000       0x30 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOSlewRataConfigure
+                0x00000000       0x30 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinToPort
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIOPinToPin
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .bss.g_psGPIOPinIntAssignTable
+                0x00000000       0x40 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .data          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .bss           0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlDelay
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.xSysCtlPeripheraIntNumGet
+                0x00000000       0x38 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.xSysCtlPeripheralClockSourceSet
+                0x00000000      0x220 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.xSysCtlPeripheralEnable2
+                0x00000000       0x40 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlPeripheralDisable
+                0x00000000       0x24 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.xSysCtlPeripheralDisable2
+                0x00000000       0x40 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlWakeupPinConfig
+                0x00000000       0x4c ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlWakeupFilterConfig
+                0x00000000       0x30 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlWakeupPinFlagGet
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlWakeupPinFilterFlagGet
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlWakeupModuleFlagGet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlWakeupModuleEnable
+                0x00000000       0x30 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlSleep
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlDeepSleep
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlHClockSourceSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.xSysCtlClockSet
+                0x00000000      0x260 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlResetSrcGet
+                0x00000000       0x3c ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlPowerModeGet
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlResetPinFilterStopModeEnable
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlResetPinFilterBusClkWidthSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlResetPinFilterRunModeSelect
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDVolSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDWarningVolSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDEventFlagGet
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDEventFlagClear
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDWaringFlagGet
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDWarningFlagClear
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlVeryLowPowerRunModeEnable
+                0x00000000       0x40 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDIntEnable
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDWarningIntEnable
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlLVDResetEnable
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlStopModeSet
+                0x00000000      0x140 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.OSIncTickLess
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.BRTOSStopModeSet
+                0x00000000      0x13c ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.BRTOSStopModeSet2
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlHClockGet
+                0x00000000       0xcc ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlHClockSet
+                0x00000000      0x570 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlClkOututSrcSet
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlBusClkSet
+                0x00000000       0x50 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlBusClkGet
+                0x00000000       0x1c ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlBandgapEnable
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlBandgapBufferEnable
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlRegulatorStatusGet
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text.SysCtlPWMAndUART0ClkGet
+                0x00000000       0x6c ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .bss.time_next_task
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .data.normal_run
+                0x00000000        0x1 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .data.s_ulExtClockMHz
+                0x00000000        0x4 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .rodata.g_pPeripherals
+                0x00000000       0xd8 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .text          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .data          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .bss           0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTCharsAvail
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTSpaceAvail
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTCharGetNonBlocking
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTCharGet
+                0x00000000       0x24 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTCharPutNonBlocking
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTCharPut
+                0x00000000       0x24 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTBusy
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTRxErrorGet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTRxErrorClear
+                0x00000000       0x34 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTLINConfig
+                0x00000000       0xbc ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTLINEnable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTLINDisable
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTLINSyncBreakPut
+                0x00000000       0x1c ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTDMAEnable
+                0x00000000       0x38 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTDMADisable
+                0x00000000       0x34 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTTxInvertEnable
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTTxInvertDisable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTRxInvertEnable
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTRxInvertDisable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTOutModeConfig
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTWaitModeRun
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTWaitModeStop
+                0x00000000        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTWakeupMethodConfig
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTMsbFirst
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTLsbFirst
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTReceiverStatus
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTMatchAddressSet
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTMatchAddrModeEnable
+                0x00000000       0x24 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTMatchAddrModeDisable
+                0x00000000       0x24 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTBothEdgeSampleEnable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTBothEdgeSampleDisable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTReSyncEnable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTReSyncDisable
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTGetBit9
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTGetBit10
+                0x00000000       0x10 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTSetBit9
+                0x00000000       0x18 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTSetBit10
+                0x00000000       0x20 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTIdleLineTypeConfig
+                0x00000000       0x14 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTIdleFlagGet
+                0x00000000        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTIdleFlagClear
+                0x00000000       0x3c ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text.UARTIdleSend
+                0x00000000       0x1c ./src/CoX/CoX_Peripheral/src/xuart.o
+ .text          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .data          0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .bss           0x00000000        0x0 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .text.WDTimerDisable
+                0x00000000       0x1c ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .text          0x00000000        0x0 ./src/tasks.o
+ .data          0x00000000        0x0 ./src/tasks.o
+ .bss           0x00000000        0x0 ./src/tasks.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .text          0x00000000      0x1e0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .rodata.str1.1
+                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000       0x12 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .text.printf   0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .debug_frame   0x00000000       0x50 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-printf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x00000000       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.std.isra.0
+                0x00000000       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sinit  0x00000000       0x64 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0x7c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .rodata.__sf_fake_stdin
+                0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .rodata.__sf_fake_stdout
+                0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .rodata.__sf_fake_stderr
+                0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .debug_frame   0x00000000      0x140 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk_reent
+                0x00000000       0x42 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x00000000       0x58 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000       0xb0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputc_r
+                0x00000000       0x2a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x00000000       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x00000000       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text._vfprintf_r
+                0x00000000      0x220 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x00000000       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .rodata.str1.1
+                0x00000000       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x00000000       0xa0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_common
+                0x00000000       0xdc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_i
+                0x00000000      0x230 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata.str1.1
+                0x00000000       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text.__sread  0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text.__sseek  0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text.__sclose
+                0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .debug_frame   0x00000000       0x90 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf_r
+                0x00000000       0xb0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x00000000       0x44 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .text._write_r
+                0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-writer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0x00000000       0xe8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .text._close_r
+                0x00000000       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-closer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x112 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x58 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .debug_frame   0x00000000       0x68 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x00000000      0x2b0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .text.__smakebuf_r
+                0x00000000       0xb0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .text.memchr   0x00000000       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .text.memmove  0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000       0x8c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x00000000       0x4c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .text._read_r  0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-readr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .text._fstat_r
+                0x00000000       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .text._isatty_r
+                0x00000000       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x00000000       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x1ffff000         0x00004000         xrw
+FLASH            0x00000000         0x00020000         xr
+CCMRAM           0x00000000         0x00000000         xrw
+FLASHB1          0x00000000         0x00000000         xr
+EXTMEMB0         0x00000000         0x00000000         xr
+EXTMEMB1         0x00000000         0x00000000         xr
+EXTMEMB2         0x00000000         0x00000000         xr
+EXTMEMB3         0x00000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./system/src/newlib/_cxx.o
+LOAD ./system/src/newlib/_exit.o
+LOAD ./system/src/newlib/_sbrk.o
+LOAD ./system/src/newlib/_startup.o
+LOAD ./system/src/newlib/_syscalls.o
+LOAD ./system/src/newlib/assert.o
+LOAD ./system/src/kl25-sc/rcm.o
+LOAD ./system/src/diag/Trace.o
+LOAD ./system/src/diag/trace_impl.o
+LOAD ./system/src/cortexm/_initialize_hardware.o
+LOAD ./system/src/cortexm/_reset_hardware.o
+LOAD ./system/src/cortexm/exception_handlers.o
+LOAD ./system/src/cmsis/system_MKL25Z4.o
+LOAD ./system/src/cmsis/vectors_MKL25Z4.o
+LOAD ./src/hal/HAL.o
+LOAD ./src/brtos/BRTOS.o
+LOAD ./src/brtos/OSInfo.o
+LOAD ./src/brtos/OSTime.o
+LOAD ./src/brtos/device.o
+LOAD ./src/brtos/mbox.o
+LOAD ./src/brtos/mutex.o
+LOAD ./src/brtos/queue.o
+LOAD ./src/brtos/semaphore.o
+LOAD ./src/brtos/stimer.o
+LOAD ./src/Drivers/SPI/spi_cox.o
+LOAD ./src/Drivers/MMA8451/accel.o
+LOAD ./src/Drivers/LPO/LPO.o
+LOAD ./src/Drivers/DAC/DAC.o
+LOAD ./src/Drivers/CPU/cpu.o
+LOAD ./src/Drivers/GPIOx.o
+LOAD ./src/Drivers/UARTx.o
+LOAD ./src/Drivers/system.o
+LOAD ./src/Drivers/utils.o
+LOAD ./src/CoX/CoX_Peripheral/src/xadc.o
+LOAD ./src/CoX/CoX_Peripheral/src/xcore.o
+LOAD ./src/CoX/CoX_Peripheral/src/xdebug.o
+LOAD ./src/CoX/CoX_Peripheral/src/xgpio.o
+LOAD ./src/CoX/CoX_Peripheral/src/xsysctl.o
+LOAD ./src/CoX/CoX_Peripheral/src/xuart.o
+LOAD ./src/CoX/CoX_Peripheral/src/xwdt.o
+LOAD ./src/main.o
+LOAD ./src/tasks.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+                0x20003000                __stack = (ORIGIN (RAM) + 0x4000)
+                0x20003000                _estack = __stack
+                0x00000400                __Main_Stack_Size = 0x400
+                0x00000400                PROVIDE (_Main_Stack_Size, __Main_Stack_Size)
+                0x20002c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
+                0x20002c00                PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x1ffffc54                PROVIDE (_Heap_Begin, _end_noinit)
+                0x20002c00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
+
+.isr_vector     0x00000000      0x550
+ FILL mask 0xff
+                0x00000000                __vectors_start = ABSOLUTE (.)
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 ./system/src/cmsis/vectors_MKL25Z4.o
+                0x00000000                gHandlers
+ *(.cfmconfig)
+ .cfmconfig     0x00000400       0x10 ./system/src/cmsis/vectors_MKL25Z4.o
+                0x00000400                gConfigs
+ *(.after_vectors .after_vectors.*)
+ .after_vectors
+                0x00000410      0x104 ./system/src/newlib/_startup.o
+                0x00000410                _start
+ .after_vectors
+                0x00000514       0x38 ./system/src/cortexm/exception_handlers.o
+                0x00000514                Reset_Handler
+                0x00000518                NMI_Handler
+                0x0000051c                HardFault_Handler
+                0x00000534                HardFault_Handler_C
+                0x00000538                SVC_Handler
+                0x0000053c                PendSV_Handler
+                0x00000540                SysTick_Handler
+ .after_vectors
+                0x0000054c        0x4 ./system/src/cmsis/vectors_MKL25Z4.o
+                0x0000054c                I2C0_IRQHandler
+                0x0000054c                I2C1_IRQHandler
+                0x0000054c                UART1_IRQHandler
+                0x0000054c                DMA2_IRQHandler
+                0x0000054c                TPM0_IRQHandler
+                0x0000054c                TSI0_IRQHandler
+                0x0000054c                UART0_IRQHandler
+                0x0000054c                ADC0_IRQHandler
+                0x0000054c                Reserved39_IRQHandler
+                0x0000054c                SPI1_IRQHandler
+                0x0000054c                PORTD_IRQHandler
+                0x0000054c                TPM2_IRQHandler
+                0x0000054c                LPTimer_IRQHandler
+                0x0000054c                RTC_IRQHandler
+                0x0000054c                RTC_Seconds_IRQHandler
+                0x0000054c                MCG_IRQHandler
+                0x0000054c                UART2_IRQHandler
+                0x0000054c                Reserved20_IRQHandler
+                0x0000054c                Default_Handler
+                0x0000054c                USB0_IRQHandler
+                0x0000054c                LLW_IRQHandler
+                0x0000054c                PIT_IRQHandler
+                0x0000054c                DMA3_IRQHandler
+                0x0000054c                DMA0_IRQHandler
+                0x0000054c                DAC0_IRQHandler
+                0x0000054c                Reserved45_IRQHandler
+                0x0000054c                TPM1_IRQHandler
+                0x0000054c                LVD_LVW_IRQHandler
+                0x0000054c                SPI0_IRQHandler
+                0x0000054c                PORTA_IRQHandler
+                0x0000054c                FTFA_IRQHandler
+                0x0000054c                CMP0_IRQHandler
+                0x0000054c                DMA1_IRQHandler
+
+.inits          0x00000550       0x28
+                0x00000550                __data_regions_array_start = .
+                0x00000550        0x4 LONG 0x3444 LOADADDR (.data)
+                0x00000554        0x4 LONG 0x1ffff000 ADDR (.data)
+                0x00000558        0x4 LONG 0x1ffff020 (ADDR (.data) + SIZEOF (.data))
+                0x0000055c        0x4 LONG 0x3444 LOADADDR (.data_CCMRAM)
+                0x00000560        0x4 LONG 0x0 ADDR (.data_CCMRAM)
+                0x00000564        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
+                0x00000568                __data_regions_array_end = .
+                0x00000568                __bss_regions_array_start = .
+                0x00000568        0x4 LONG 0x1ffff020 ADDR (.bss)
+                0x0000056c        0x4 LONG 0x1ffffc54 (ADDR (.bss) + SIZEOF (.bss))
+                0x00000570        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
+                0x00000574        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
+                0x00000578                __bss_regions_array_end = .
+ *(.init)
+ *(.fini)
+                0x00000578                . = ALIGN (0x4)
+                0x00000578                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array_sysinit .preinit_array_sysinit.*)
+ *(.preinit_array_platform .preinit_array_platform.*)
+ *(.preinit_array .preinit_array.*)
+                0x00000578                PROVIDE (__preinit_array_end, .)
+                0x00000578                . = ALIGN (0x4)
+                0x00000578                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x00000578                PROVIDE (__init_array_end, .)
+                0x00000578                . = ALIGN (0x4)
+                0x00000578                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x00000578                PROVIDE (__fini_array_end, .)
+
+.flashtext
+ *(.flashtext .flashtext.*)
+
+.text           0x00000578     0x2ecc
+ *(.text .text.*)
+ .text._exit    0x00000578        0x8 ./system/src/newlib/_exit.o
+                0x00000578                _exit
+ .text.__initialize_args
+                0x00000580       0x10 ./system/src/newlib/_syscalls.o
+                0x00000580                __initialize_args
+ .text.__initialize_hardware_early
+                0x00000590        0x8 ./system/src/cortexm/_initialize_hardware.o
+                0x00000590                __initialize_hardware_early
+ .text.__initialize_hardware
+                0x00000598        0x8 ./system/src/cortexm/_initialize_hardware.o
+                0x00000598                __initialize_hardware
+ .text.__reset_hardware
+                0x000005a0       0x1c ./system/src/cortexm/_reset_hardware.o
+                0x000005a0                __reset_hardware
+ .text.SystemInit
+                0x000005bc       0xb4 ./system/src/cmsis/system_MKL25Z4.o
+                0x000005bc                SystemInit
+ .text.SystemCoreClockUpdate
+                0x00000670      0x140 ./system/src/cmsis/system_MKL25Z4.o
+                0x00000670                SystemCoreClockUpdate
+ .text.TickTimerSetup
+                0x000007b0       0x20 ./src/hal/HAL.o
+                0x000007b0                TickTimerSetup
+ .text.TickTimer
+                0x000007d0       0x18 ./src/hal/HAL.o
+                0x000007d0                TickTimer
+ .text.SwitchContext
+                0x000007e8       0x9c ./src/hal/HAL.o
+                0x000007e8                SwitchContext
+ .text.SwitchContextToFirstTask
+                0x00000884       0x44 ./src/hal/HAL.o
+                0x00000884                SwitchContextToFirstTask
+ .text.CreateVirtualStack
+                0x000008c8       0xb4 ./src/hal/HAL.o
+                0x000008c8                CreateVirtualStack
+ .text.OS_CPU_SR_Save
+                0x0000097c        0x8 ./src/hal/HAL.o
+                0x0000097c                OS_CPU_SR_Save
+ .text.OS_CPU_SR_Restore
+                0x00000984        0x8 ./src/hal/HAL.o
+                0x00000984                OS_CPU_SR_Restore
+ .text.Idle     0x0000098c        0x4 ./src/brtos/BRTOS.o
+                0x0000098c                Idle
+ .text.OSGetCount
+                0x00000990        0xc ./src/brtos/BRTOS.o
+                0x00000990                OSGetCount
+ .text.OSIncCounter
+                0x0000099c       0x30 ./src/brtos/BRTOS.o
+                0x0000099c                OSIncCounter
+ .text.OSDelayTask
+                0x000009cc       0xe4 ./src/brtos/BRTOS.o
+                0x000009cc                OSDelayTask
+ .text.OS_TICK_HANDLER
+                0x00000ab0       0xb0 ./src/brtos/BRTOS.o
+                0x00000ab0                OS_TICK_HANDLER
+ .text.PreInstallTasks
+                0x00000b60       0x7c ./src/brtos/BRTOS.o
+                0x00000b60                PreInstallTasks
+ .text.OSInstallTask
+                0x00000bdc      0x200 ./src/brtos/BRTOS.o
+                0x00000bdc                OSInstallTask
+ .text.initEvents
+                0x00000ddc       0x34 ./src/brtos/BRTOS.o
+                0x00000ddc                initEvents
+ .text.BRTOSInit
+                0x00000e10       0x10 ./src/brtos/BRTOS.o
+                0x00000e10                BRTOSInit
+ .text.SAScheduler
+                0x00000e20      0x164 ./src/brtos/BRTOS.o
+                0x00000e20                SAScheduler
+ .text.OSSchedule
+                0x00000f84       0x24 ./src/brtos/BRTOS.o
+                0x00000f84                OSSchedule
+ .text.BRTOSStart
+                0x00000fa8       0x54 ./src/brtos/BRTOS.o
+                0x00000fa8                BRTOSStart
+ .text.OSUpdateUptime
+                0x00000ffc       0x58 ./src/brtos/OSTime.o
+                0x00000ffc                OSUpdateUptime
+ .text.OSResetTime
+                0x00001054       0x1c ./src/brtos/OSTime.o
+                0x00001054                OSResetTime
+ .text.OSDevOpen
+                0x00001070      0x174 ./src/brtos/device.o
+                0x00001070                OSDevOpen
+ .text.OSDevWrite
+                0x000011e4        0xc ./src/brtos/device.o
+                0x000011e4                OSDevWrite
+ .text.OSDevRead
+                0x000011f0        0xc ./src/brtos/device.o
+                0x000011f0                OSDevRead
+ .text.OSDevSet
+                0x000011fc        0xc ./src/brtos/device.o
+                0x000011fc                OSDevSet
+ .text.OSMboxCreate
+                0x00001208       0xac ./src/brtos/mbox.o
+                0x00001208                OSMboxCreate
+ .text.OSMboxPend
+                0x000012b4      0x1f8 ./src/brtos/mbox.o
+                0x000012b4                OSMboxPend
+ .text.OSMboxPost
+                0x000014ac       0x70 ./src/brtos/mbox.o
+                0x000014ac                OSMboxPost
+ .text.OSQueueCreate
+                0x0000151c      0x148 ./src/brtos/queue.o
+                0x0000151c                OSQueueCreate
+ .text.OSQueuePend
+                0x00001664      0x234 ./src/brtos/queue.o
+                0x00001664                OSQueuePend
+ .text.OSQueuePost
+                0x00001898       0x98 ./src/brtos/queue.o
+                0x00001898                OSQueuePost
+ .text.OSSemCreate
+                0x00001930       0x98 ./src/brtos/semaphore.o
+                0x00001930                OSSemCreate
+ .text.OSSemPend
+                0x000019c8      0x1ec ./src/brtos/semaphore.o
+                0x000019c8                OSSemPend
+ .text.OSSemPost
+                0x00001bb4       0x84 ./src/brtos/semaphore.o
+                0x00001bb4                OSSemPost
+ .text.mma8451_read
+                0x00001c38       0xb4 ./src/Drivers/MMA8451/accel.o
+                0x00001c38                mma8451_read
+ .text.mma8451_write
+                0x00001cec       0x80 ./src/Drivers/MMA8451/accel.o
+                0x00001cec                mma8451_write
+ .text.accel_init
+                0x00001d6c       0x58 ./src/Drivers/MMA8451/accel.o
+                0x00001d6c                accel_init
+ .text._read_reg14
+                0x00001dc4       0x20 ./src/Drivers/MMA8451/accel.o
+                0x00001dc4                _read_reg14
+ .text.accel_x  0x00001de4        0xc ./src/Drivers/MMA8451/accel.o
+                0x00001de4                accel_x
+ .text.accel_y  0x00001df0        0xc ./src/Drivers/MMA8451/accel.o
+                0x00001df0                accel_y
+ .text.accel_z  0x00001dfc        0xc ./src/Drivers/MMA8451/accel.o
+                0x00001dfc                accel_z
+ .text.DAC0_Init
+                0x00001e08       0x64 ./src/Drivers/DAC/DAC.o
+                0x00001e08                DAC0_Init
+ .text.DAC0_SetData
+                0x00001e6c       0x10 ./src/Drivers/DAC/DAC.o
+                0x00001e6c                DAC0_SetData
+ .text.GPIO_Set
+                0x00001e7c       0x14 ./src/Drivers/GPIOx.o
+                0x00001e7c                GPIO_Set
+ .text.GPIO_Get
+                0x00001e90        0x4 ./src/Drivers/GPIOx.o
+                0x00001e90                GPIO_Get
+ .text.GPIO_Write
+                0x00001e94       0x10 ./src/Drivers/GPIOx.o
+                0x00001e94                GPIO_Write
+ .text.GPIO_Read
+                0x00001ea4        0xc ./src/Drivers/GPIOx.o
+                0x00001ea4                GPIO_Read
+ .text.OSOpenGPIO
+                0x00001eb0      0x128 ./src/Drivers/GPIOx.o
+                0x00001eb0                OSOpenGPIO
+ .text.UART_Set
+                0x00001fd8       0x14 ./src/Drivers/UARTx.o
+                0x00001fd8                UART_Set
+ .text.UART_Get
+                0x00001fec       0x2c ./src/Drivers/UARTx.o
+                0x00001fec                UART_Get
+ .text.USART0IntHandler
+                0x00002018       0x5c ./src/Drivers/UARTx.o
+                0x00002018                USART0IntHandler
+ .text.USART1IntHandler
+                0x00002074       0x5c ./src/Drivers/UARTx.o
+                0x00002074                USART1IntHandler
+ .text.USART2IntHandler
+                0x000020d0       0x5c ./src/Drivers/UARTx.o
+                0x000020d0                USART2IntHandler
+ .text.UART_Write
+                0x0000212c       0x6c ./src/Drivers/UARTx.o
+                0x0000212c                UART_Write
+ .text.UART_Read
+                0x00002198       0x4c ./src/Drivers/UARTx.o
+                0x00002198                UART_Read
+ .text.Init_UART0
+                0x000021e4       0xd0 ./src/Drivers/UARTx.o
+                0x000021e4                Init_UART0
+ .text.Init_UART1
+                0x000022b4       0xd8 ./src/Drivers/UARTx.o
+                0x000022b4                Init_UART1
+ .text.Init_UART2
+                0x0000238c       0xd8 ./src/Drivers/UARTx.o
+                0x0000238c                Init_UART2
+ .text.OSOpenUART
+                0x00002464       0x50 ./src/Drivers/UARTx.o
+                0x00002464                OSOpenUART
+ .text.xIntEnable
+                0x000024b4       0x8c ./src/CoX/CoX_Peripheral/src/xcore.o
+                0x000024b4                xIntEnable
+ .text.GPIOToPortGet
+                0x00002540       0x60 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .text.GPIODirModeSet
+                0x000025a0       0x18 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x000025a0                GPIODirModeSet
+ .text.xGPIODirModeSet
+                0x000025b8       0x2c ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x000025b8                xGPIODirModeSet
+ .text.GPIOPinRead
+                0x000025e4        0x8 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x000025e4                GPIOPinRead
+ .text.GPIOPinWrite
+                0x000025ec       0x18 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x000025ec                GPIOPinWrite
+ .text.GPIOPinReset
+                0x00002604        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002604                GPIOPinReset
+ .text.GPIOPadConfigSet
+                0x00002608       0x30 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002608                GPIOPadConfigSet
+ .text.GPIOPinConfigure
+                0x00002638       0x34 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002638                GPIOPinConfigure
+ .text.SysCtlPeripheralEnable
+                0x0000266c       0x24 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+                0x0000266c                SysCtlPeripheralEnable
+ .text.SysCtlPeripheralClockSourceSet
+                0x00002690      0x268 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+                0x00002690                SysCtlPeripheralClockSourceSet
+ .text.UART0SEIntHandler
+                0x000028f8       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x000028f8                UART0SEIntHandler
+ .text.UART1SEIntHandler
+                0x00002928       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002928                UART1SEIntHandler
+ .text.UART2SEIntHandler
+                0x00002958       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002958                UART2SEIntHandler
+ .text.UARTConfigSet
+                0x00002988      0x1d0 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002988                UARTConfigSet
+ .text.UARTEnable
+                0x00002b58        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002b58                UARTEnable
+ .text.UARTDisable
+                0x00002b64        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002b64                UARTDisable
+ .text.UARTIntEnable
+                0x00002b6c       0x2c ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002b6c                UARTIntEnable
+ .text.UARTIntDisable
+                0x00002b98       0x28 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002b98                UARTIntDisable
+ .text.UARTIntCallbackInit
+                0x00002bc0       0x34 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002bc0                UARTIntCallbackInit
+ .text.WDTimerInit
+                0x00002bf4        0xc ./src/CoX/CoX_Peripheral/src/xwdt.o
+                0x00002bf4                WDTimerInit
+ .text.WDTimerEnable
+                0x00002c00       0x14 ./src/CoX/CoX_Peripheral/src/xwdt.o
+                0x00002c00                WDTimerEnable
+ .text.WDTimerRestart
+                0x00002c14       0x10 ./src/CoX/CoX_Peripheral/src/xwdt.o
+                0x00002c14                WDTimerRestart
+ .text.main     0x00002c24       0xb0 ./src/main.o
+                0x00002c24                main
+ .text.System_Time
+                0x00002cd4       0x70 ./src/tasks.o
+                0x00002cd4                System_Time
+ .text.Test_Task_1
+                0x00002d44       0x38 ./src/tasks.o
+                0x00002d44                Test_Task_1
+ .text.Test_Task_2
+                0x00002d7c      0x130 ./src/tasks.o
+                0x00002d7c                Test_Task_2
+ .text.SerialTask
+                0x00002eac       0x6c ./src/tasks.o
+                0x00002eac                SerialTask
+ .text          0x00002f18      0x120 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00002f18                __aeabi_uidiv
+                0x00002f18                __udivsi3
+                0x00003024                __aeabi_uidivmod
+ .text          0x00003038        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00003038                __aeabi_idiv0
+                0x00003038                __aeabi_ldiv0
+ .text          0x0000303c       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+                0x0000303c                strcmp
+ .text.strlen   0x00003050        0xe c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+                0x00003050                strlen
+ .text.strncmp  0x0000305e       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+                0x0000305e                strncmp
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *fill*         0x00003086        0x2 
+ .rodata.PriorityMask
+                0x00003088       0x80 ./src/brtos/BRTOS.o
+                0x00003088                PriorityMask
+ .rodata.str1.4
+                0x00003108       0x1c ./src/brtos/BRTOS.o
+ .rodata.str1.4
+                0x00003124       0x18 ./src/brtos/device.o
+ .rodata.OSOpenGPIO
+                0x0000313c       0x14 ./src/Drivers/GPIOx.o
+ .rodata.GPIO_api
+                0x00003150       0x10 ./src/Drivers/GPIOx.o
+                0x00003150                GPIO_api
+ .rodata.UART_Get
+                0x00003160       0x14 ./src/Drivers/UARTx.o
+ .rodata.UART_api
+                0x00003174       0x10 ./src/Drivers/UARTx.o
+                0x00003174                UART_api
+ .rodata.g_pulPortBase
+                0x00003184       0x14 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .rodata.g_pulAXBCLKRegs
+                0x00003198       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .rodata.str1.4
+                0x000031a8       0x42 ./src/main.o
+ *fill*         0x000031ea        0x2 
+ .rodata.str1.4
+                0x000031ec       0x30 ./src/tasks.o
+                                 0x2e (size before relaxing)
+ .rodata.SinusOutputData
+                0x0000321c      0x200 ./src/tasks.o
+ *(vtable)
+ *(.eh_frame*)
+ .eh_frame      0x0000341c       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00003444        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00003444        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00003444        0x0
+ .iplt          0x00000000        0x0 ./system/src/newlib/_cxx.o
+
+.rel.dyn        0x00003444        0x0
+ .rel.iplt      0x00000000        0x0 ./system/src/newlib/_cxx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00003444                . = ALIGN (0x4)
+                0x00003444                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00003444                __exidx_end = .
+                0x00003444                . = ALIGN (0x4)
+                0x00003444                _etext = .
+                0x00003444                __etext = .
+
+.data_CCMRAM    0x00000000        0x0 load address 0x00003444
+ FILL mask 0xff
+ *(.data.CCMRAM .data.CCMRAM.*)
+                0x00000000                . = ALIGN (0x4)
+                0x00003444                _sidata = LOADADDR (.data)
+
+.data           0x1ffff000       0x20 load address 0x00003444
+ FILL mask 0xff
+                0x1ffff000                _sdata = .
+                0x1ffff000                __data_start__ = .
+ *(.data_begin .data_begin.*)
+ *(.data .data.*)
+ .data.argv.4609
+                0x1ffff000        0x8 ./system/src/newlib/_syscalls.o
+ .data.SystemCoreClock
+                0x1ffff008        0x4 ./system/src/cmsis/system_MKL25Z4.o
+                0x1ffff008                SystemCoreClock
+ .data.OSBlockedList
+                0x1ffff00c        0x4 ./src/brtos/BRTOS.o
+                0x1ffff00c                OSBlockedList
+ .data.dev_types
+                0x1ffff010       0x10 ./src/brtos/device.o
+                0x1ffff010                dev_types
+ *(.data_end .data_end.*)
+                0x1ffff020                . = ALIGN (0x4)
+                0x1ffff020                _edata = .
+                0x1ffff020                __data_end__ = .
+
+.igot.plt       0x1ffff020        0x0 load address 0x00003464
+ .igot.plt      0x00000000        0x0 ./system/src/newlib/_cxx.o
+
+.bss_CCMRAM     0x00000000        0x0
+ *(.bss.CCMRAM .bss.CCMRAM.*)
+
+.bss            0x1ffff020      0xc34
+                0x1ffff020                __bss_start__ = .
+                0x1ffff020                _sbss = .
+ *(.bss_begin .bss_begin.*)
+ *(.bss .bss.*)
+ .bss.name.4608
+                0x1ffff020        0x1 ./system/src/newlib/_syscalls.o
+ *fill*         0x1ffff021        0x7 
+ .bss.OSTickCounter
+                0x1ffff028        0x8 ./src/brtos/BRTOS.o
+ .bss.iQueueAddress
+                0x1ffff030        0x2 ./src/brtos/BRTOS.o
+                0x1ffff030                iQueueAddress
+ *fill*         0x1ffff032        0x2 
+ .bss.TaskAlloc
+                0x1ffff034        0x4 ./src/brtos/BRTOS.o
+                0x1ffff034                TaskAlloc
+ .bss.iStackAddress
+                0x1ffff038        0x2 ./src/brtos/BRTOS.o
+                0x1ffff038                iStackAddress
+ .bss.iNesting  0x1ffff03a        0x1 ./src/brtos/BRTOS.o
+                0x1ffff03a                iNesting
+ *fill*         0x1ffff03b        0x1 
+ .bss.OSReadyList
+                0x1ffff03c        0x4 ./src/brtos/BRTOS.o
+                0x1ffff03c                OSReadyList
+ .bss.Data      0x1ffff040        0x4 ./src/brtos/OSTime.o
+ .bss.Hora      0x1ffff044        0x3 ./src/brtos/OSTime.o
+ *fill*         0x1ffff047        0x1 
+ .bss.BRTOSDevices
+                0x1ffff048       0x50 ./src/brtos/device.o
+ .bss.BRTOSDevControl
+                0x1ffff098       0x3c ./src/brtos/device.o
+ .bss.g_pfnUARTHandlerCallbacks
+                0x1ffff0d4        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+ .bss.g_WatchDogStatue
+                0x1ffff0e0        0x4 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ *(COMMON)
+ COMMON         0x1ffff0e4        0x4 ./src/hal/HAL.o
+                0x1ffff0e4                SPvalue
+ COMMON         0x1ffff0e8      0xb50 ./src/brtos/BRTOS.o
+                0x1ffff0e8                BRTOS_Sem_Table
+                0x1ffff108                StackAddress
+                0x1ffff10c                BRTOS_Queue_Table
+                0x1ffff130                NumberOfInstalledTasks
+                0x1ffff134                PriorityVector
+                0x1ffff154                SelectedTask
+                0x1ffff155                currentTask
+                0x1ffff158                QUEUE_STACK
+                0x1ffff258                BRTOS_Mutex_Table
+                0x1ffff270                BRTOS_Mbox_Table
+                0x1ffff288                STACK
+                0x1ffffa88                Head
+                0x1ffffa90                ContextTask
+                0x1ffffbf8                Tail
+                0x1ffffbfc                BRTOS_OS_QUEUE_Table
+ COMMON         0x1ffffc38       0x18 ./src/Drivers/UARTx.o
+                0x1ffffc38                SerialQ
+                0x1ffffc44                SerialTX
+ COMMON         0x1ffffc50        0x4 ./src/main.o
+                0x1ffffc50                Data
+ *(.bss_end .bss_end.*)
+                0x1ffffc54                . = ALIGN (0x4)
+                0x1ffffc54                __bss_end__ = .
+                0x1ffffc54                _ebss = .
+
+.noinit_CCMRAM
+ *(.noinit.CCMRAM .noinit.CCMRAM.*)
+
+.noinit         0x1ffffc54        0x0
+                0x1ffffc54                _noinit = .
+ *(.noinit .noinit.*)
+                0x1ffffc54                . = ALIGN (0x4)
+                0x1ffffc54                _end_noinit = .
+                0x1ffffc54                PROVIDE (end, _end_noinit)
+                0x1ffffc54                PROVIDE (_end, _end_noinit)
+                0x1ffffc54                PROVIDE (__end, _end_noinit)
+                0x1ffffc54                PROVIDE (__end__, _end_noinit)
+
+._check_stack   0x1ffffc54      0x100
+                0x1ffffd54                . = (. + _Minimum_Stack_Size)
+ *fill*         0x1ffffc54      0x100 
+
+.b1text
+ *(.b1text)
+ *(.b1rodata)
+ *(.b1rodata.*)
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata.*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata.*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata.*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata.*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x70
+ *(.comment)
+ .comment       0x00000000       0x70 ./system/src/newlib/_exit.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./system/src/newlib/_startup.o
+ .comment       0x00000000       0x71 ./system/src/newlib/_syscalls.o
+ .comment       0x00000000       0x71 ./system/src/cortexm/_initialize_hardware.o
+ .comment       0x00000000       0x71 ./system/src/cortexm/_reset_hardware.o
+ .comment       0x00000000       0x71 ./system/src/cortexm/exception_handlers.o
+ .comment       0x00000000       0x71 ./system/src/cmsis/system_MKL25Z4.o
+ .comment       0x00000000       0x71 ./system/src/cmsis/vectors_MKL25Z4.o
+ .comment       0x00000000       0x71 ./src/hal/HAL.o
+ .comment       0x00000000       0x71 ./src/brtos/BRTOS.o
+ .comment       0x00000000       0x71 ./src/brtos/OSTime.o
+ .comment       0x00000000       0x71 ./src/brtos/device.o
+ .comment       0x00000000       0x71 ./src/brtos/mbox.o
+ .comment       0x00000000       0x71 ./src/brtos/queue.o
+ .comment       0x00000000       0x71 ./src/brtos/semaphore.o
+ .comment       0x00000000       0x71 ./src/Drivers/MMA8451/accel.o
+ .comment       0x00000000       0x71 ./src/Drivers/DAC/DAC.o
+ .comment       0x00000000       0x71 ./src/Drivers/GPIOx.o
+ .comment       0x00000000       0x71 ./src/Drivers/UARTx.o
+ .comment       0x00000000       0x71 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .comment       0x00000000       0x71 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .comment       0x00000000       0x71 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .comment       0x00000000       0x71 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .comment       0x00000000       0x71 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 ./src/tasks.o
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x32 ./system/src/newlib/_exit.o
+ .ARM.attributes
+                0x00000032       0x32 ./system/src/newlib/_startup.o
+ .ARM.attributes
+                0x00000064       0x32 ./system/src/newlib/_syscalls.o
+ .ARM.attributes
+                0x00000096       0x32 ./system/src/cortexm/_initialize_hardware.o
+ .ARM.attributes
+                0x000000c8       0x32 ./system/src/cortexm/_reset_hardware.o
+ .ARM.attributes
+                0x000000fa       0x32 ./system/src/cortexm/exception_handlers.o
+ .ARM.attributes
+                0x0000012c       0x32 ./system/src/cmsis/system_MKL25Z4.o
+ .ARM.attributes
+                0x0000015e       0x32 ./system/src/cmsis/vectors_MKL25Z4.o
+ .ARM.attributes
+                0x00000190       0x32 ./src/hal/HAL.o
+ .ARM.attributes
+                0x000001c2       0x32 ./src/brtos/BRTOS.o
+ .ARM.attributes
+                0x000001f4       0x32 ./src/brtos/OSTime.o
+ .ARM.attributes
+                0x00000226       0x32 ./src/brtos/device.o
+ .ARM.attributes
+                0x00000258       0x32 ./src/brtos/mbox.o
+ .ARM.attributes
+                0x0000028a       0x32 ./src/brtos/queue.o
+ .ARM.attributes
+                0x000002bc       0x32 ./src/brtos/semaphore.o
+ .ARM.attributes
+                0x000002ee       0x32 ./src/Drivers/MMA8451/accel.o
+ .ARM.attributes
+                0x00000320       0x32 ./src/Drivers/DAC/DAC.o
+ .ARM.attributes
+                0x00000352       0x32 ./src/Drivers/GPIOx.o
+ .ARM.attributes
+                0x00000384       0x32 ./src/Drivers/UARTx.o
+ .ARM.attributes
+                0x000003b6       0x32 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .ARM.attributes
+                0x000003e8       0x32 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .ARM.attributes
+                0x0000041a       0x32 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .ARM.attributes
+                0x0000044c       0x32 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .ARM.attributes
+                0x0000047e       0x32 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .ARM.attributes
+                0x000004b0       0x32 ./src/main.o
+ .ARM.attributes
+                0x000004e2       0x32 ./src/tasks.o
+ .ARM.attributes
+                0x00000514       0x1e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000532       0x1e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000550       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000056c       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000598       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xbb0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ./system/src/newlib/_exit.o
+ .debug_aranges
+                0x00000028       0x40 ./system/src/newlib/_startup.o
+ .debug_aranges
+                0x00000068       0xd0 ./system/src/newlib/_syscalls.o
+ .debug_aranges
+                0x00000138       0x28 ./system/src/cortexm/_initialize_hardware.o
+ .debug_aranges
+                0x00000160       0x20 ./system/src/cortexm/_reset_hardware.o
+ .debug_aranges
+                0x00000180       0x50 ./system/src/cortexm/exception_handlers.o
+ .debug_aranges
+                0x000001d0       0x28 ./system/src/cmsis/system_MKL25Z4.o
+ .debug_aranges
+                0x000001f8       0x20 ./system/src/cmsis/vectors_MKL25Z4.o
+ .debug_aranges
+                0x00000218       0x58 ./src/hal/HAL.o
+ .debug_aranges
+                0x00000270       0xb8 ./src/brtos/BRTOS.o
+ .debug_aranges
+                0x00000328       0x70 ./src/brtos/OSTime.o
+ .debug_aranges
+                0x00000398       0x40 ./src/brtos/device.o
+ .debug_aranges
+                0x000003d8       0x38 ./src/brtos/mbox.o
+ .debug_aranges
+                0x00000410       0x68 ./src/brtos/queue.o
+ .debug_aranges
+                0x00000478       0x40 ./src/brtos/semaphore.o
+ .debug_aranges
+                0x000004b8       0x50 ./src/Drivers/MMA8451/accel.o
+ .debug_aranges
+                0x00000508       0x28 ./src/Drivers/DAC/DAC.o
+ .debug_aranges
+                0x00000530       0x40 ./src/Drivers/GPIOx.o
+ .debug_aranges
+                0x00000570       0x70 ./src/Drivers/UARTx.o
+ .debug_aranges
+                0x000005e0      0x118 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_aranges
+                0x000006f8       0xf8 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_aranges
+                0x000007f0      0x188 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_aranges
+                0x00000978      0x1a8 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_aranges
+                0x00000b20       0x38 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_aranges
+                0x00000b58       0x20 ./src/main.o
+ .debug_aranges
+                0x00000b78       0x38 ./src/tasks.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa0b0
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x100 ./system/src/newlib/_exit.o
+ .debug_info    0x00000100      0x414 ./system/src/newlib/_startup.o
+ .debug_info    0x00000514      0x90b ./system/src/newlib/_syscalls.o
+ .debug_info    0x00000e1f       0xbf ./system/src/cortexm/_initialize_hardware.o
+ .debug_info    0x00000ede      0x1a0 ./system/src/cortexm/_reset_hardware.o
+ .debug_info    0x0000107e      0x1a7 ./system/src/cortexm/exception_handlers.o
+ .debug_info    0x00001225      0x470 ./system/src/cmsis/system_MKL25Z4.o
+ .debug_info    0x00001695       0xf4 ./system/src/cmsis/vectors_MKL25Z4.o
+ .debug_info    0x00001789      0x338 ./src/hal/HAL.o
+ .debug_info    0x00001ac1      0xdbb ./src/brtos/BRTOS.o
+ .debug_info    0x0000287c      0x467 ./src/brtos/OSTime.o
+ .debug_info    0x00002ce3      0x6c3 ./src/brtos/device.o
+ .debug_info    0x000033a6      0x505 ./src/brtos/mbox.o
+ .debug_info    0x000038ab      0x8f8 ./src/brtos/queue.o
+ .debug_info    0x000041a3      0x571 ./src/brtos/semaphore.o
+ .debug_info    0x00004714      0xa34 ./src/Drivers/MMA8451/accel.o
+ .debug_info    0x00005148      0x3f8 ./src/Drivers/DAC/DAC.o
+ .debug_info    0x00005540      0x77b ./src/Drivers/GPIOx.o
+ .debug_info    0x00005cbb     0x1067 ./src/Drivers/UARTx.o
+ .debug_info    0x00006d22      0x48a ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_info    0x000071ac      0xa30 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_info    0x00007bdc      0xb47 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_info    0x00008723      0xb49 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_info    0x0000926c       0x9b ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_info    0x00009307      0x2da ./src/main.o
+ .debug_info    0x000095e1      0xacf ./src/tasks.o
+
+.debug_abbrev   0x00000000     0x260d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xb8 ./system/src/newlib/_exit.o
+ .debug_abbrev  0x000000b8      0x1c3 ./system/src/newlib/_startup.o
+ .debug_abbrev  0x0000027b      0x175 ./system/src/newlib/_syscalls.o
+ .debug_abbrev  0x000003f0       0x60 ./system/src/cortexm/_initialize_hardware.o
+ .debug_abbrev  0x00000450       0xd4 ./system/src/cortexm/_reset_hardware.o
+ .debug_abbrev  0x00000524       0xc4 ./system/src/cortexm/exception_handlers.o
+ .debug_abbrev  0x000005e8      0x106 ./system/src/cmsis/system_MKL25Z4.o
+ .debug_abbrev  0x000006ee       0xab ./system/src/cmsis/vectors_MKL25Z4.o
+ .debug_abbrev  0x00000799      0x1d8 ./src/hal/HAL.o
+ .debug_abbrev  0x00000971      0x252 ./src/brtos/BRTOS.o
+ .debug_abbrev  0x00000bc3      0x1aa ./src/brtos/OSTime.o
+ .debug_abbrev  0x00000d6d      0x1c6 ./src/brtos/device.o
+ .debug_abbrev  0x00000f33      0x1b9 ./src/brtos/mbox.o
+ .debug_abbrev  0x000010ec      0x1d1 ./src/brtos/queue.o
+ .debug_abbrev  0x000012bd      0x1d9 ./src/brtos/semaphore.o
+ .debug_abbrev  0x00001496      0x1ea ./src/Drivers/MMA8451/accel.o
+ .debug_abbrev  0x00001680      0x106 ./src/Drivers/DAC/DAC.o
+ .debug_abbrev  0x00001786      0x1c0 ./src/Drivers/GPIOx.o
+ .debug_abbrev  0x00001946      0x27a ./src/Drivers/UARTx.o
+ .debug_abbrev  0x00001bc0      0x14e ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_abbrev  0x00001d0e      0x1f2 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_abbrev  0x00001f00      0x210 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_abbrev  0x00002110      0x16c ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_abbrev  0x0000227c       0x6f ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_abbrev  0x000022eb      0x111 ./src/main.o
+ .debug_abbrev  0x000023fc      0x211 ./src/tasks.o
+
+.debug_line     0x00000000     0x43ec
+ *(.debug_line)
+ .debug_line    0x00000000      0x139 ./system/src/newlib/_exit.o
+ .debug_line    0x00000139       0xf1 ./system/src/newlib/_startup.o
+ .debug_line    0x0000022a      0x3ab ./system/src/newlib/_syscalls.o
+ .debug_line    0x000005d5       0x9e ./system/src/cortexm/_initialize_hardware.o
+ .debug_line    0x00000673      0x170 ./system/src/cortexm/_reset_hardware.o
+ .debug_line    0x000007e3      0x181 ./system/src/cortexm/exception_handlers.o
+ .debug_line    0x00000964      0x1b2 ./system/src/cmsis/system_MKL25Z4.o
+ .debug_line    0x00000b16       0x5b ./system/src/cmsis/vectors_MKL25Z4.o
+ .debug_line    0x00000b71      0x204 ./src/hal/HAL.o
+ .debug_line    0x00000d75      0x4a6 ./src/brtos/BRTOS.o
+ .debug_line    0x0000121b      0x290 ./src/brtos/OSTime.o
+ .debug_line    0x000014ab      0x30c ./src/brtos/device.o
+ .debug_line    0x000017b7      0x26d ./src/brtos/mbox.o
+ .debug_line    0x00001a24      0x345 ./src/brtos/queue.o
+ .debug_line    0x00001d69      0x2c4 ./src/brtos/semaphore.o
+ .debug_line    0x0000202d      0x253 ./src/Drivers/MMA8451/accel.o
+ .debug_line    0x00002280      0x161 ./src/Drivers/DAC/DAC.o
+ .debug_line    0x000023e1      0x2a0 ./src/Drivers/GPIOx.o
+ .debug_line    0x00002681      0x3d3 ./src/Drivers/UARTx.o
+ .debug_line    0x00002a54      0x33a ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_line    0x00002d8e      0x3a2 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_line    0x00003130      0x825 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_line    0x00003955      0x50b ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_line    0x00003e60       0x91 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_line    0x00003ef1      0x186 ./src/main.o
+ .debug_line    0x00004077      0x375 ./src/tasks.o
+
+.debug_frame    0x00000000     0x1b14
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x40 ./system/src/newlib/_exit.o
+ .debug_frame   0x00000040       0x88 ./system/src/newlib/_startup.o
+ .debug_frame   0x000000c8      0x230 ./system/src/newlib/_syscalls.o
+ .debug_frame   0x000002f8       0x40 ./system/src/cortexm/_initialize_hardware.o
+ .debug_frame   0x00000338       0x20 ./system/src/cortexm/_reset_hardware.o
+ .debug_frame   0x00000358       0x80 ./system/src/cortexm/exception_handlers.o
+ .debug_frame   0x000003d8       0x44 ./system/src/cmsis/system_MKL25Z4.o
+ .debug_frame   0x0000041c       0x20 ./system/src/cmsis/vectors_MKL25Z4.o
+ .debug_frame   0x0000043c       0xa4 ./src/hal/HAL.o
+ .debug_frame   0x000004e0      0x210 ./src/brtos/BRTOS.o
+ .debug_frame   0x000006f0      0x110 ./src/brtos/OSTime.o
+ .debug_frame   0x00000800       0x98 ./src/brtos/device.o
+ .debug_frame   0x00000898       0x90 ./src/brtos/mbox.o
+ .debug_frame   0x00000928      0x148 ./src/brtos/queue.o
+ .debug_frame   0x00000a70       0xb0 ./src/brtos/semaphore.o
+ .debug_frame   0x00000b20       0xc0 ./src/Drivers/MMA8451/accel.o
+ .debug_frame   0x00000be0       0x38 ./src/Drivers/DAC/DAC.o
+ .debug_frame   0x00000c18       0x84 ./src/Drivers/GPIOx.o
+ .debug_frame   0x00000c9c      0x124 ./src/Drivers/UARTx.o
+ .debug_frame   0x00000dc0      0x238 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_frame   0x00000ff8      0x2a8 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_frame   0x000012a0      0x38c ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_frame   0x0000162c      0x374 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_frame   0x000019a0       0x50 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_frame   0x000019f0       0x28 ./src/main.o
+ .debug_frame   0x00001a18       0x90 ./src/tasks.o
+ .debug_frame   0x00001aa8       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001ac8       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+ .debug_frame   0x00001ae8       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+
+.debug_str      0x00000000     0x2a4f
+ *(.debug_str)
+ .debug_str     0x00000000      0x19b ./system/src/newlib/_exit.o
+                                0x1d4 (size before relaxing)
+ .debug_str     0x0000019b      0x173 ./system/src/newlib/_startup.o
+                                0x319 (size before relaxing)
+ .debug_str     0x0000030e      0x265 ./system/src/newlib/_syscalls.o
+                                0x45f (size before relaxing)
+ .debug_str     0x00000573       0x4e ./system/src/cortexm/_initialize_hardware.o
+                                0x1f9 (size before relaxing)
+ .debug_str     0x000005c1       0x7f ./system/src/cortexm/_reset_hardware.o
+                                0x212 (size before relaxing)
+ .debug_str     0x00000640       0xb0 ./system/src/cortexm/exception_handlers.o
+                                0x24e (size before relaxing)
+ .debug_str     0x000006f0      0x15a ./system/src/cmsis/system_MKL25Z4.o
+                                0x318 (size before relaxing)
+ .debug_str     0x0000084a       0x5a ./system/src/cmsis/vectors_MKL25Z4.o
+                                0x1d3 (size before relaxing)
+ .debug_str     0x000008a4      0x199 ./src/hal/HAL.o
+                                0x366 (size before relaxing)
+ .debug_str     0x00000a3d      0x3d1 ./src/brtos/BRTOS.o
+                                0x6f3 (size before relaxing)
+ .debug_str     0x00000e0e      0x11e ./src/brtos/OSTime.o
+                                0x319 (size before relaxing)
+ .debug_str     0x00000f2c      0x23e ./src/brtos/device.o
+                                0x423 (size before relaxing)
+ .debug_str     0x0000116a       0x66 ./src/brtos/mbox.o
+                                0x3a2 (size before relaxing)
+ .debug_str     0x000011d0       0xb2 ./src/brtos/queue.o
+                                0x48b (size before relaxing)
+ .debug_str     0x00001282       0x57 ./src/brtos/semaphore.o
+                                0x38c (size before relaxing)
+ .debug_str     0x000012d9      0x151 ./src/Drivers/MMA8451/accel.o
+                                0x410 (size before relaxing)
+ .debug_str     0x0000142a       0x53 ./src/Drivers/DAC/DAC.o
+                                0x309 (size before relaxing)
+ .debug_str     0x0000147d      0x226 ./src/Drivers/GPIOx.o
+                                0x58e (size before relaxing)
+ .debug_str     0x000016a3      0x3dd ./src/Drivers/UARTx.o
+                                0x97d (size before relaxing)
+ .debug_str     0x00001a80      0x26b ./src/CoX/CoX_Peripheral/src/xcore.o
+                                0x394 (size before relaxing)
+ .debug_str     0x00001ceb      0x2a9 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                                0x458 (size before relaxing)
+ .debug_str     0x00001f94      0x5cc ./src/CoX/CoX_Peripheral/src/xsysctl.o
+                                0x7ed (size before relaxing)
+ .debug_str     0x00002560      0x3db ./src/CoX/CoX_Peripheral/src/xuart.o
+                                0x571 (size before relaxing)
+ .debug_str     0x0000293b       0x6e ./src/CoX/CoX_Peripheral/src/xwdt.o
+                                0x183 (size before relaxing)
+ .debug_str     0x000029a9        0xe ./src/main.o
+                                0x279 (size before relaxing)
+ .debug_str     0x000029b7       0x98 ./src/tasks.o
+                                0x696 (size before relaxing)
+
+.debug_loc      0x00000000     0x6534
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x21 ./system/src/newlib/_exit.o
+ .debug_loc     0x00000021      0x219 ./system/src/newlib/_startup.o
+ .debug_loc     0x0000023a      0x549 ./system/src/newlib/_syscalls.o
+ .debug_loc     0x00000783       0xa5 ./system/src/cmsis/system_MKL25Z4.o
+ .debug_loc     0x00000828      0x197 ./src/hal/HAL.o
+ .debug_loc     0x000009bf      0xa24 ./src/brtos/BRTOS.o
+ .debug_loc     0x000013e3       0xe8 ./src/brtos/OSTime.o
+ .debug_loc     0x000014cb      0x464 ./src/brtos/device.o
+ .debug_loc     0x0000192f      0x351 ./src/brtos/mbox.o
+ .debug_loc     0x00001c80      0x701 ./src/brtos/queue.o
+ .debug_loc     0x00002381      0x459 ./src/brtos/semaphore.o
+ .debug_loc     0x000027da       0xd0 ./src/Drivers/MMA8451/accel.o
+ .debug_loc     0x000028aa       0x21 ./src/Drivers/DAC/DAC.o
+ .debug_loc     0x000028cb      0x4ee ./src/Drivers/GPIOx.o
+ .debug_loc     0x00002db9      0x801 ./src/Drivers/UARTx.o
+ .debug_loc     0x000035ba      0x2c1 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_loc     0x0000387b      0xb14 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_loc     0x0000438f     0x1641 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_loc     0x000059d0      0x7f9 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_loc     0x000061c9      0x36b ./src/tasks.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(FRDM_BRTOS.elf elf32-littlearm)
+
+.debug_ranges   0x00000000      0xa48
+ .debug_ranges  0x00000000       0x18 ./system/src/newlib/_exit.o
+ .debug_ranges  0x00000018       0x30 ./system/src/newlib/_startup.o
+ .debug_ranges  0x00000048       0xc0 ./system/src/newlib/_syscalls.o
+ .debug_ranges  0x00000108       0x18 ./system/src/cortexm/_initialize_hardware.o
+ .debug_ranges  0x00000120       0x10 ./system/src/cortexm/_reset_hardware.o
+ .debug_ranges  0x00000130       0x40 ./system/src/cortexm/exception_handlers.o
+ .debug_ranges  0x00000170       0x18 ./system/src/cmsis/system_MKL25Z4.o
+ .debug_ranges  0x00000188       0x10 ./system/src/cmsis/vectors_MKL25Z4.o
+ .debug_ranges  0x00000198       0x48 ./src/hal/HAL.o
+ .debug_ranges  0x000001e0       0xc0 ./src/brtos/BRTOS.o
+ .debug_ranges  0x000002a0       0x60 ./src/brtos/OSTime.o
+ .debug_ranges  0x00000300       0x50 ./src/brtos/device.o
+ .debug_ranges  0x00000350       0x28 ./src/brtos/mbox.o
+ .debug_ranges  0x00000378       0x58 ./src/brtos/queue.o
+ .debug_ranges  0x000003d0       0x30 ./src/brtos/semaphore.o
+ .debug_ranges  0x00000400       0x40 ./src/Drivers/MMA8451/accel.o
+ .debug_ranges  0x00000440       0x18 ./src/Drivers/DAC/DAC.o
+ .debug_ranges  0x00000458       0x30 ./src/Drivers/GPIOx.o
+ .debug_ranges  0x00000488       0x60 ./src/Drivers/UARTx.o
+ .debug_ranges  0x000004e8      0x108 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_ranges  0x000005f0       0xe8 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_ranges  0x000006d8      0x178 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_ranges  0x00000850      0x198 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_ranges  0x000009e8       0x28 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_ranges  0x00000a10       0x10 ./src/main.o
+ .debug_ranges  0x00000a20       0x28 ./src/tasks.o
