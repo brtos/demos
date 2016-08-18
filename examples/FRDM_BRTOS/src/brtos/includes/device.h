@@ -198,4 +198,45 @@ typedef struct gpio_config_t_{
 	unsigned long irq_pins;
 }gpio_config_t;
 
+typedef struct mux_gpio_config_t_{
+	unsigned long base;
+	unsigned long pin;
+	unsigned long pin_number;
+}mux_gpio_config_t;
+
+//
+//! Edge-aligned PWM High-true pulses
+//
+#ifndef PWM_MODE_EDGE_ALIGNED1
+#define PWM_MODE_EDGE_ALIGNED1  0x00000000
+#endif
+
+//
+//! Edge-aligned PWM Low-true pulses
+//
+#ifndef PWM_MODE_EDGE_ALIGNED2
+#define PWM_MODE_EDGE_ALIGNED2  0x00000001
+#endif
+
+//
+//! Center-aligned PWM High-true pulses
+//
+#ifndef PWM_MODE_CENTER_ALIGNED1
+#define PWM_MODE_CENTER_ALIGNED1 0x00000002
+#endif
+
+//
+//! Center-aligned PWM Low-true pulses
+//
+#ifndef PWM_MODE_CENTER_ALIGNED2
+#define PWM_MODE_CENTER_ALIGNED2 0x00000003
+#endif
+
+typedef struct pwm_config_t_{
+	int 		  *channel_list;
+	int			  frequency;
+	int			  mode;
+	int		  	  *init_duty;
+}pwm_config_t;
+
 #endif /* BRTOS_DEVICE_H_ */

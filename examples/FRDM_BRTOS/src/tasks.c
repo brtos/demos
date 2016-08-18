@@ -115,8 +115,19 @@ void Test_Task_1(void *param)
 {
 	/* task setup */
 	accel_data data;
+	pwm_config_t pwm0;
+	int channel_list[] = {2,3};
+	int duty_list[] = {20,30};
 
 	(void)param;
+
+	pwm0.frequency = 60000;
+	//pwm0.mode = PWM_MODE_CENTER_ALIGNED1;
+	pwm0.mode = 2;
+	pwm0.channel_list = channel_list;
+	pwm0.init_duty = duty_list;
+
+	OSDevOpen("PWM0",&pwm0);
 	accel_init();
   
    /* task main loop */

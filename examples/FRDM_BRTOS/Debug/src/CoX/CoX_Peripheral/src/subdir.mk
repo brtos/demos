@@ -8,6 +8,7 @@ C_SRCS += \
 ../src/CoX/CoX_Peripheral/src/xcore.c \
 ../src/CoX/CoX_Peripheral/src/xdebug.c \
 ../src/CoX/CoX_Peripheral/src/xgpio.c \
+../src/CoX/CoX_Peripheral/src/xpwm.c \
 ../src/CoX/CoX_Peripheral/src/xsysctl.c \
 ../src/CoX/CoX_Peripheral/src/xuart.c \
 ../src/CoX/CoX_Peripheral/src/xwdt.c 
@@ -17,6 +18,7 @@ OBJS += \
 ./src/CoX/CoX_Peripheral/src/xcore.o \
 ./src/CoX/CoX_Peripheral/src/xdebug.o \
 ./src/CoX/CoX_Peripheral/src/xgpio.o \
+./src/CoX/CoX_Peripheral/src/xpwm.o \
 ./src/CoX/CoX_Peripheral/src/xsysctl.o \
 ./src/CoX/CoX_Peripheral/src/xuart.o \
 ./src/CoX/CoX_Peripheral/src/xwdt.o 
@@ -26,6 +28,7 @@ C_DEPS += \
 ./src/CoX/CoX_Peripheral/src/xcore.d \
 ./src/CoX/CoX_Peripheral/src/xdebug.d \
 ./src/CoX/CoX_Peripheral/src/xgpio.d \
+./src/CoX/CoX_Peripheral/src/xpwm.d \
 ./src/CoX/CoX_Peripheral/src/xsysctl.d \
 ./src/CoX/CoX_Peripheral/src/xuart.d \
 ./src/CoX/CoX_Peripheral/src/xwdt.d 

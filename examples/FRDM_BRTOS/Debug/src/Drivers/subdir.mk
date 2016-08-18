@@ -5,18 +5,21 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/Drivers/GPIOx.c \
+../src/Drivers/PWMx.c \
 ../src/Drivers/UARTx.c \
 ../src/Drivers/system.c \
 ../src/Drivers/utils.c 
 
 OBJS += \
 ./src/Drivers/GPIOx.o \
+./src/Drivers/PWMx.o \
 ./src/Drivers/UARTx.o \
 ./src/Drivers/system.o \
 ./src/Drivers/utils.o 
 
 C_DEPS += \
 ./src/Drivers/GPIOx.d \
+./src/Drivers/PWMx.d \
 ./src/Drivers/UARTx.d \
 ./src/Drivers/system.d \
 ./src/Drivers/utils.d 
