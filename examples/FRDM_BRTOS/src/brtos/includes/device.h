@@ -106,6 +106,13 @@ size_t OSDevGet(OS_Device_Control_t *dev, uint32_t request);
 #endif
 
 typedef enum{
+	CTRL_ACQUIRE_READ_MUTEX = 10,
+	CTRL_ACQUIRE_WRITE_MUTEX,
+	CTRL_RELEASE_WRITE_MUTEX,
+	CTRL_RELEASE_READ_MUTEX
+};
+
+typedef enum{
 	UART_PAR_NONE,
 	UART_PAR_ODD,
 	UART_PAR_EVEN
@@ -136,6 +143,8 @@ typedef struct uart_config_t_{
 	uart_irq_t 	polling_irq;
 	int 		queue_size;
 	ostick_t 	timeout;
+	bool		read_mutex;
+	bool		write_mutex;
 }uart_config_t;
 
 
@@ -182,6 +191,7 @@ typedef enum{
 typedef struct gpio_config_t_{
 	unsigned long used_pins_in;
 	unsigned long used_pins_out;
+	unsigned long pull;
 	unsigned long irq_pins;
 }gpio_config_t;
 

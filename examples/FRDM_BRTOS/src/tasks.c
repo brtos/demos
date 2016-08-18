@@ -240,13 +240,18 @@ void SerialTask(void *param){
 	uart0.queue_size = 128;
 	uart0.stop_bits = UART_STOP_ONE;
 	uart0.timeout = 10;
+	uart0.read_mutex = false;
+	uart0.write_mutex = true;
 	uart = OSDevOpen("UART0", &uart0);
 
 	OSDevWrite(uart,"Porta serial ativa!\n\r",21);
 
 	while(1){
 		if (OSDevRead(uart,&data,1) >= 1){
-			OSDevWrite(uart,&data,1);
+			if (OSDevSet(uart,CTRL_ACQUIRE_WRITE_MUTEX,50) == OK){
+				OSDevWrite(uart,&data,1);
+			}
+			OSDevSet(uart,CTRL_RELEASE_WRITE_MUTEX,0);
 		}
 		OSDevSet(uart,UART_TIMEOUT,INF_TIMEOUT);
 	}

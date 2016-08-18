@@ -15,14 +15,9 @@ static BRTOS_Sem   *SerialTX[3];
 // Declara um ponteiro para o bloco de controle da Porta Serial
 static BRTOS_Queue  *SerialQ[3];
 
+static BRTOS_Mutex *SerialRMutex[3];
+static BRTOS_Mutex *SerialWMutex[3];
 
-//BRTOS_Sem   *SerialTX1;
-// Declara um ponteiro para o bloco de controle da Porta Serial
-//BRTOS_Queue  *Serial1;
-
-//BRTOS_Sem   *SerialTX2;
-// Declara um ponteiro para o bloco de controle da Porta Serial
-//BRTOS_Queue  *Serial2;
 
 unsigned long USART0IntHandler(void *pvCBData,
         unsigned long ulEvent,
@@ -208,6 +203,14 @@ static void Init_UART0(void *parameters)
 	  while(1){};
 	};
 
+	if (uart_conf->write_mutex == true){
+		OSMutexCreate (&SerialWMutex[0], 0);
+	}
+
+	if (uart_conf->read_mutex == true){
+		OSMutexCreate (&SerialRMutex[0], 0);
+	}
+
 	UARTIntEnable(UART0_BASE, UART_INT_R);
 	UARTIntCallbackInit(UART0_BASE, UART0_INT_HANDLE);
 
@@ -286,6 +289,14 @@ static void Init_UART1(void *parameters)
 	  while(1){};
 	};
 
+	if (uart_conf->write_mutex == true){
+		OSMutexCreate (&SerialWMutex[1], 0);
+	}
+
+	if (uart_conf->read_mutex == true){
+		OSMutexCreate (&SerialRMutex[1], 0);
+	}
+
 	UARTIntEnable(UART1_BASE, UART_INT_R);
 	UARTIntCallbackInit(UART1_BASE, UART1_INT_HANDLE);
 
@@ -362,6 +373,14 @@ static void Init_UART2(void *parameters)
 	  while(1){};
 	};
 
+	if (uart_conf->write_mutex == true){
+		OSMutexCreate (&SerialWMutex[2], 0);
+	}
+
+	if (uart_conf->read_mutex == true){
+		OSMutexCreate (&SerialRMutex[2], 0);
+	}
+
 	UARTIntEnable(UART2_BASE, UART_INT_R);
 	UARTIntCallbackInit(UART2_BASE, UART2_INT_HANDLE);
 
@@ -375,6 +394,7 @@ static void Init_UART2(void *parameters)
 
 static size_t UART_Write(OS_Device_Control_t *dev, char *string, size_t size ){
 	size_t nbytes = 0;
+
 	while(size){
 		xHWREGB(dev->device->base_address + UART_012_D) = (char)*string;
 		UARTIntEnable(dev->device->base_address, UART_INT_TC);
@@ -403,30 +423,90 @@ failed_rx:
 }
 
 static size_t UART_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t value){
+	unsigned long config = 0;
+	size_t ret = 0;
 	uart_config_t *uart_conf = (uart_config_t *)dev->device->DriverData;
 
 	switch(request){
 		case UART_BAUDRATE:
+			uart_conf->baudrate = value;
 			break;
 		case UART_PARITY:
+			uart_conf->parity = value;
 			break;
 		case UART_STOP_BITS:
+			uart_conf->polling_irq = value;
 			break;
 		case UART_QUEUE_SIZE:
+			/* somente pode ser alterado se filar dinâmicas forem utilizadas. */
 			break;
 		case UART_TIMEOUT:
 			uart_conf->timeout = value;
+			break;
+		case CTRL_ACQUIRE_READ_MUTEX:
+			ret = OSMutexAcquire(SerialRMutex[dev->device_number],value);
+			break;
+		case CTRL_ACQUIRE_WRITE_MUTEX:
+			ret = OSMutexAcquire(SerialWMutex[dev->device_number],value);
+			break;
+		case CTRL_RELEASE_WRITE_MUTEX:
+			ret = OSMutexRelease(SerialWMutex[dev->device_number]);
+			break;
+		case CTRL_RELEASE_READ_MUTEX:
+			ret = OSMutexRelease(SerialRMutex[dev->device_number]);
 			break;
 		default:
 			break;
 	}
 
-	return 0;
+	if (request <= UART_STOP_BITS)
+	{
+		// Disable UART Receive/Transmit
+		UARTDisable(dev->device->base_address, UART_TX | UART_RX);
+
+		config = UART_CONFIG_SAMPLE_RATE_DEFAULT;
+
+		switch (uart_conf->parity){
+			case UART_PAR_NONE:
+				config |= UART_CONFIG_PAR_NONE;
+				break;
+			case UART_PAR_EVEN:
+				config |= UART_CONFIG_PAR_EVEN | UART_CONFIG_WLEN_9;
+				break;
+			case UART_PAR_ODD:
+				config |= UART_CONFIG_PAR_ODD | UART_CONFIG_WLEN_9;
+				break;
+			default:
+				config |= UART_CONFIG_PAR_NONE;
+				break;
+		}
+
+		switch (uart_conf->stop_bits){
+			case UART_STOP_ONE:
+				config |= UART_CONFIG_STOP_1;
+				break;
+			case UART_STOP_TWO:
+				config |= UART_CONFIG_STOP_2;
+				break;
+			default:
+				config |= UART_CONFIG_STOP_1;
+				break;
+		}
+
+		// Configure UART Baud
+		UARTConfigSet(dev->device->base_address, uart_conf->baudrate, config);
+
+		// Enable UART Receive and Transmit
+		UARTEnable(UART2_BASE, UART_TX | UART_RX);
+	}
+
+	return ret;
 }
 
 static size_t UART_Get(OS_Device_Control_t *dev, uint32_t request){
 	uint32_t ret;
 	uart_config_t *uart_conf = (uart_config_t *)dev->device->DriverData;
+
 	switch(request){
 		case UART_BAUDRATE:
 			ret = uart_conf->baudrate;
