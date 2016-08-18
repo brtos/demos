@@ -157,8 +157,8 @@ void Test_Task_2(void *param)
 	gpiod.irq_pins = 0;
 	dev_gpiod = OSDevOpen("GPIOD", &gpiod);
 
-	OSDevWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,1);
-	OSDevWrite(dev_gpiod,GPIO_PIN_1,0);
+	OSGPIOWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,1);
+	OSGPIOWrite(dev_gpiod,GPIO_PIN_1,0);
 
 	for(;;)
 	{
@@ -196,30 +196,30 @@ void Test_Task_2(void *param)
 	      switch(leds)
 	      {
 	      	  case 0:
-		    	  OSDevWrite(dev_gpiob,GPIO_PIN_18,0);
-		    	  OSDevWrite(dev_gpiob,GPIO_PIN_19,1);
-		    	  OSDevWrite(dev_gpiod,GPIO_PIN_1,1);
+		    	  OSGPIOWrite(dev_gpiob,GPIO_PIN_18,0);
+		    	  OSGPIOWrite(dev_gpiob,GPIO_PIN_19,1);
+		    	  OSGPIOWrite(dev_gpiod,GPIO_PIN_1,1);
 		    	  break;
 
 	      	  case 1:
-		    	  OSDevWrite(dev_gpiob,GPIO_PIN_18,1);
-		    	  OSDevWrite(dev_gpiob,GPIO_PIN_19,0);
-		    	  OSDevWrite(dev_gpiod,GPIO_PIN_1,1);
+	      		  OSGPIOWrite(dev_gpiob,GPIO_PIN_18,1);
+	      		  OSGPIOWrite(dev_gpiob,GPIO_PIN_19,0);
+	      		  OSGPIOWrite(dev_gpiod,GPIO_PIN_1,1);
 		    	  break;
 
 	      	  case 2:
-		    	  OSDevWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,1);
-		    	  OSDevWrite(dev_gpiod,GPIO_PIN_1,0);
+	      		  OSGPIOWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,1);
+	      		  OSGPIOWrite(dev_gpiod,GPIO_PIN_1,0);
 		    	  break;
 
 	      	  case 3:
-		    	  OSDevWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,0);
-		    	  OSDevWrite(dev_gpiod,GPIO_PIN_1,0);
+	      		  OSGPIOWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,0);
+	      		  OSGPIOWrite(dev_gpiod,GPIO_PIN_1,0);
 		    	  break;
 
 	      	  case 4:
-		    	  OSDevWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,1);
-		    	  OSDevWrite(dev_gpiod,GPIO_PIN_1,1);
+	      		  OSGPIOWrite(dev_gpiob,GPIO_PIN_18 | GPIO_PIN_19,1);
+	      		  OSGPIOWrite(dev_gpiod,GPIO_PIN_1,1);
 		    	  break;
 
 	      	  default:
@@ -250,10 +250,12 @@ void SerialTask(void *param){
 		if (OSDevRead(uart,&data,1) >= 1){
 			if (OSDevSet(uart,CTRL_ACQUIRE_WRITE_MUTEX,50) == OK){
 				OSDevWrite(uart,&data,1);
+				OSDevSet(uart,CTRL_RELEASE_WRITE_MUTEX,0);
 			}
-			OSDevSet(uart,CTRL_RELEASE_WRITE_MUTEX,0);
 		}
-		OSDevSet(uart,UART_TIMEOUT,INF_TIMEOUT);
+		if (OSDevGet(uart,UART_TIMEOUT) != INF_TIMEOUT){
+			OSDevSet(uart,UART_TIMEOUT,INF_TIMEOUT);
+		}
 	}
 }
 

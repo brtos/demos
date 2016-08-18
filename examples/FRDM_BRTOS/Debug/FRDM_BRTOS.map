@@ -1026,8 +1026,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/brtos/device.o
  .data          0x00000000        0x0 ./src/brtos/device.o
  .bss           0x00000000        0x0 ./src/brtos/device.o
- .text.OSDevGet
-                0x00000000        0xc ./src/brtos/device.o
  .debug_macro   0x00000000      0x83e ./src/brtos/device.o
  .debug_macro   0x00000000       0x22 ./src/brtos/device.o
  .debug_macro   0x00000000       0x44 ./src/brtos/device.o
@@ -1509,7 +1507,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x70a ./src/Drivers/GPIOx.o
  .debug_macro   0x00000000      0x16d ./src/Drivers/GPIOx.o
  .debug_macro   0x00000000       0x22 ./src/Drivers/GPIOx.o
- .debug_macro   0x00000000       0xea ./src/Drivers/GPIOx.o
+ .debug_macro   0x00000000       0xf6 ./src/Drivers/GPIOx.o
  .group         0x00000000        0x8 ./src/Drivers/UARTx.o
  .group         0x00000000        0x8 ./src/Drivers/UARTx.o
  .group         0x00000000        0x8 ./src/Drivers/UARTx.o
@@ -1564,7 +1562,7 @@ Discarded input sections
  .debug_macro   0x00000000     0x3df3 ./src/Drivers/UARTx.o
  .debug_macro   0x00000000      0x16d ./src/Drivers/UARTx.o
  .debug_macro   0x00000000       0x22 ./src/Drivers/UARTx.o
- .debug_macro   0x00000000       0xea ./src/Drivers/UARTx.o
+ .debug_macro   0x00000000       0xf6 ./src/Drivers/UARTx.o
  .group         0x00000000        0x8 ./src/Drivers/system.o
  .group         0x00000000        0x8 ./src/Drivers/system.o
  .group         0x00000000        0x8 ./src/Drivers/system.o
@@ -2378,7 +2376,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/tasks.o
  .debug_macro   0x00000000      0x16d ./src/tasks.o
  .debug_macro   0x00000000       0x22 ./src/tasks.o
- .debug_macro   0x00000000       0xea ./src/tasks.o
+ .debug_macro   0x00000000       0xf6 ./src/tasks.o
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
  .text          0x00000000      0x1e0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
@@ -2757,10 +2755,10 @@ END GROUP
 
 .inits          0x0000057c       0x28
                 0x0000057c                __data_regions_array_start = .
-                0x0000057c        0x4 LONG 0x4514 LOADADDR (.data)
+                0x0000057c        0x4 LONG 0x454c LOADADDR (.data)
                 0x00000580        0x4 LONG 0x1ffff000 ADDR (.data)
                 0x00000584        0x4 LONG 0x1ffff07c (ADDR (.data) + SIZEOF (.data))
-                0x00000588        0x4 LONG 0x4514 LOADADDR (.data_CCMRAM)
+                0x00000588        0x4 LONG 0x454c LOADADDR (.data_CCMRAM)
                 0x0000058c        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x00000590        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x00000594                __data_regions_array_end = .
@@ -2792,7 +2790,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x000005a4     0x3f70
+.text           0x000005a4     0x3fa8
  *(.text .text.*)
  .text._exit    0x000005a4        0x4 ./system/src/newlib/_exit.o
                 0x000005a4                _exit
@@ -2898,338 +2896,341 @@ END GROUP
  .text.OSDevSet
                 0x00001378        0xc ./src/brtos/device.o
                 0x00001378                OSDevSet
+ .text.OSDevGet
+                0x00001384        0xc ./src/brtos/device.o
+                0x00001384                OSDevGet
  .text.OSMboxCreate
-                0x00001384       0xac ./src/brtos/mbox.o
-                0x00001384                OSMboxCreate
+                0x00001390       0xac ./src/brtos/mbox.o
+                0x00001390                OSMboxCreate
  .text.OSMboxPend
-                0x00001430      0x1f8 ./src/brtos/mbox.o
-                0x00001430                OSMboxPend
+                0x0000143c      0x1f8 ./src/brtos/mbox.o
+                0x0000143c                OSMboxPend
  .text.OSMboxPost
-                0x00001628       0x70 ./src/brtos/mbox.o
-                0x00001628                OSMboxPost
+                0x00001634       0x70 ./src/brtos/mbox.o
+                0x00001634                OSMboxPost
  .text.OSMutexCreate
-                0x00001698       0xd4 ./src/brtos/mutex.o
-                0x00001698                OSMutexCreate
+                0x000016a4       0xd4 ./src/brtos/mutex.o
+                0x000016a4                OSMutexCreate
  .text.OSMutexAcquire
-                0x0000176c      0x284 ./src/brtos/mutex.o
-                0x0000176c                OSMutexAcquire
+                0x00001778      0x284 ./src/brtos/mutex.o
+                0x00001778                OSMutexAcquire
  .text.OSMutexRelease
-                0x000019f0       0xcc ./src/brtos/mutex.o
-                0x000019f0                OSMutexRelease
+                0x000019fc       0xcc ./src/brtos/mutex.o
+                0x000019fc                OSMutexRelease
  .text.OSQueueCreate
-                0x00001abc      0x124 ./src/brtos/queue.o
-                0x00001abc                OSQueueCreate
+                0x00001ac8      0x124 ./src/brtos/queue.o
+                0x00001ac8                OSQueueCreate
  .text.OSQueuePend
-                0x00001be0      0x234 ./src/brtos/queue.o
-                0x00001be0                OSQueuePend
+                0x00001bec      0x234 ./src/brtos/queue.o
+                0x00001bec                OSQueuePend
  .text.OSQueuePost
-                0x00001e14       0x98 ./src/brtos/queue.o
-                0x00001e14                OSQueuePost
+                0x00001e20       0x98 ./src/brtos/queue.o
+                0x00001e20                OSQueuePost
  .text.OSSemCreate
-                0x00001eac       0x88 ./src/brtos/semaphore.o
-                0x00001eac                OSSemCreate
+                0x00001eb8       0x88 ./src/brtos/semaphore.o
+                0x00001eb8                OSSemCreate
  .text.OSSemPend
-                0x00001f34      0x1ec ./src/brtos/semaphore.o
-                0x00001f34                OSSemPend
+                0x00001f40      0x1ec ./src/brtos/semaphore.o
+                0x00001f40                OSSemPend
  .text.OSSemPost
-                0x00002120       0x84 ./src/brtos/semaphore.o
-                0x00002120                OSSemPost
+                0x0000212c       0x84 ./src/brtos/semaphore.o
+                0x0000212c                OSSemPost
  .text.mma8451_read
-                0x000021a4       0xac ./src/Drivers/MMA8451/accel.o
-                0x000021a4                mma8451_read
+                0x000021b0       0xac ./src/Drivers/MMA8451/accel.o
+                0x000021b0                mma8451_read
  .text.mma8451_write
-                0x00002250       0x7c ./src/Drivers/MMA8451/accel.o
-                0x00002250                mma8451_write
+                0x0000225c       0x7c ./src/Drivers/MMA8451/accel.o
+                0x0000225c                mma8451_write
  .text.accel_init
-                0x000022cc       0x58 ./src/Drivers/MMA8451/accel.o
-                0x000022cc                accel_init
+                0x000022d8       0x58 ./src/Drivers/MMA8451/accel.o
+                0x000022d8                accel_init
  .text._read_reg14
-                0x00002324       0x1c ./src/Drivers/MMA8451/accel.o
-                0x00002324                _read_reg14
- .text.accel_x  0x00002340        0xc ./src/Drivers/MMA8451/accel.o
-                0x00002340                accel_x
- .text.accel_y  0x0000234c        0xc ./src/Drivers/MMA8451/accel.o
-                0x0000234c                accel_y
- .text.accel_z  0x00002358        0xc ./src/Drivers/MMA8451/accel.o
-                0x00002358                accel_z
+                0x00002330       0x1c ./src/Drivers/MMA8451/accel.o
+                0x00002330                _read_reg14
+ .text.accel_x  0x0000234c        0xc ./src/Drivers/MMA8451/accel.o
+                0x0000234c                accel_x
+ .text.accel_y  0x00002358        0xc ./src/Drivers/MMA8451/accel.o
+                0x00002358                accel_y
+ .text.accel_z  0x00002364        0xc ./src/Drivers/MMA8451/accel.o
+                0x00002364                accel_z
  .text.DAC0_Init
-                0x00002364       0x64 ./src/Drivers/DAC/DAC.o
-                0x00002364                DAC0_Init
+                0x00002370       0x64 ./src/Drivers/DAC/DAC.o
+                0x00002370                DAC0_Init
  .text.DAC0_SetData
-                0x000023c8       0x10 ./src/Drivers/DAC/DAC.o
-                0x000023c8                DAC0_SetData
+                0x000023d4       0x10 ./src/Drivers/DAC/DAC.o
+                0x000023d4                DAC0_SetData
  .text.GPIO_Set
-                0x000023d8       0x14 ./src/Drivers/GPIOx.o
+                0x000023e4       0x14 ./src/Drivers/GPIOx.o
  .text.GPIO_Get
-                0x000023ec        0x4 ./src/Drivers/GPIOx.o
+                0x000023f8        0x4 ./src/Drivers/GPIOx.o
  .text.GPIO_Read
-                0x000023f0        0xc ./src/Drivers/GPIOx.o
+                0x000023fc        0xc ./src/Drivers/GPIOx.o
  .text.GPIO_Write
-                0x000023fc       0x10 ./src/Drivers/GPIOx.o
+                0x00002408       0x10 ./src/Drivers/GPIOx.o
  .text.OSOpenGPIO
-                0x0000240c      0x12c ./src/Drivers/GPIOx.o
-                0x0000240c                OSOpenGPIO
+                0x00002418      0x12c ./src/Drivers/GPIOx.o
+                0x00002418                OSOpenGPIO
  .text.UART_Get
-                0x00002538       0x2c ./src/Drivers/UARTx.o
+                0x00002544       0x2c ./src/Drivers/UARTx.o
  .text.USART0IntHandler
-                0x00002564       0x5c ./src/Drivers/UARTx.o
-                0x00002564                USART0IntHandler
+                0x00002570       0x5c ./src/Drivers/UARTx.o
+                0x00002570                USART0IntHandler
  .text.USART1IntHandler
-                0x000025c0       0x5c ./src/Drivers/UARTx.o
-                0x000025c0                USART1IntHandler
+                0x000025cc       0x5c ./src/Drivers/UARTx.o
+                0x000025cc                USART1IntHandler
  .text.USART2IntHandler
-                0x0000261c       0x5c ./src/Drivers/UARTx.o
-                0x0000261c                USART2IntHandler
+                0x00002628       0x5c ./src/Drivers/UARTx.o
+                0x00002628                USART2IntHandler
  .text.UART_Set
-                0x00002678       0xf8 ./src/Drivers/UARTx.o
+                0x00002684      0x118 ./src/Drivers/UARTx.o
  .text.UART_Read
-                0x00002770       0x44 ./src/Drivers/UARTx.o
+                0x0000279c       0x44 ./src/Drivers/UARTx.o
  .text.UART_Write
-                0x000027b4       0x58 ./src/Drivers/UARTx.o
+                0x000027e0       0x58 ./src/Drivers/UARTx.o
  .text.Init_UART0
-                0x0000280c       0xf4 ./src/Drivers/UARTx.o
+                0x00002838       0xf4 ./src/Drivers/UARTx.o
  .text.Init_UART1
-                0x00002900      0x104 ./src/Drivers/UARTx.o
+                0x0000292c      0x104 ./src/Drivers/UARTx.o
  .text.Init_UART2
-                0x00002a04      0x104 ./src/Drivers/UARTx.o
+                0x00002a30      0x104 ./src/Drivers/UARTx.o
  .text.OSOpenUART
-                0x00002b08       0x50 ./src/Drivers/UARTx.o
-                0x00002b08                OSOpenUART
+                0x00002b34       0x50 ./src/Drivers/UARTx.o
+                0x00002b34                OSOpenUART
  .text.xIntEnable
-                0x00002b58       0x8c ./src/CoX/CoX_Peripheral/src/xcore.o
-                0x00002b58                xIntEnable
+                0x00002b84       0x8c ./src/CoX/CoX_Peripheral/src/xcore.o
+                0x00002b84                xIntEnable
  .text.GPIOToPortGet
-                0x00002be4       0x60 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002c10       0x60 ./src/CoX/CoX_Peripheral/src/xgpio.o
  .text.GPIODirModeSet
-                0x00002c44       0x18 ./src/CoX/CoX_Peripheral/src/xgpio.o
-                0x00002c44                GPIODirModeSet
+                0x00002c70       0x18 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002c70                GPIODirModeSet
  .text.xGPIODirModeSet
-                0x00002c5c       0x28 ./src/CoX/CoX_Peripheral/src/xgpio.o
-                0x00002c5c                xGPIODirModeSet
+                0x00002c88       0x28 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002c88                xGPIODirModeSet
  .text.GPIOPinRead
-                0x00002c84        0x8 ./src/CoX/CoX_Peripheral/src/xgpio.o
-                0x00002c84                GPIOPinRead
+                0x00002cb0        0x8 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002cb0                GPIOPinRead
  .text.GPIOPinWrite
-                0x00002c8c       0x18 ./src/CoX/CoX_Peripheral/src/xgpio.o
-                0x00002c8c                GPIOPinWrite
+                0x00002cb8       0x18 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002cb8                GPIOPinWrite
  .text.GPIOPinReset
-                0x00002ca4        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
-                0x00002ca4                GPIOPinReset
+                0x00002cd0        0x4 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002cd0                GPIOPinReset
  .text.GPIOPadConfigSet
-                0x00002ca8       0x30 ./src/CoX/CoX_Peripheral/src/xgpio.o
-                0x00002ca8                GPIOPadConfigSet
+                0x00002cd4       0x30 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002cd4                GPIOPadConfigSet
  .text.GPIOPinConfigure
-                0x00002cd8       0x30 ./src/CoX/CoX_Peripheral/src/xgpio.o
-                0x00002cd8                GPIOPinConfigure
+                0x00002d04       0x30 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x00002d04                GPIOPinConfigure
  .text.SysCtlPeripheralEnable
-                0x00002d08       0x24 ./src/CoX/CoX_Peripheral/src/xsysctl.o
-                0x00002d08                SysCtlPeripheralEnable
+                0x00002d34       0x24 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+                0x00002d34                SysCtlPeripheralEnable
  .text.SysCtlPeripheralClockSourceSet
-                0x00002d2c      0x268 ./src/CoX/CoX_Peripheral/src/xsysctl.o
-                0x00002d2c                SysCtlPeripheralClockSourceSet
+                0x00002d58      0x268 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+                0x00002d58                SysCtlPeripheralClockSourceSet
  .text.UART0SEIntHandler
-                0x00002f94       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x00002f94                UART0SEIntHandler
+                0x00002fc0       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002fc0                UART0SEIntHandler
  .text.UART1SEIntHandler
-                0x00002fc4       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x00002fc4                UART1SEIntHandler
+                0x00002ff0       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00002ff0                UART1SEIntHandler
  .text.UART2SEIntHandler
-                0x00002ff4       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x00002ff4                UART2SEIntHandler
+                0x00003020       0x30 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00003020                UART2SEIntHandler
  .text.UARTConfigSet
-                0x00003024      0x1c0 ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x00003024                UARTConfigSet
+                0x00003050      0x1c0 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00003050                UARTConfigSet
  .text.UARTEnable
-                0x000031e4        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x000031e4                UARTEnable
+                0x00003210        0xc ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00003210                UARTEnable
  .text.UARTDisable
-                0x000031f0        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x000031f0                UARTDisable
+                0x0000321c        0x8 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x0000321c                UARTDisable
  .text.UARTIntEnable
-                0x000031f8       0x2c ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x000031f8                UARTIntEnable
+                0x00003224       0x2c ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00003224                UARTIntEnable
  .text.UARTIntDisable
-                0x00003224       0x28 ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x00003224                UARTIntDisable
+                0x00003250       0x28 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00003250                UARTIntDisable
  .text.UARTIntCallbackInit
-                0x0000324c       0x34 ./src/CoX/CoX_Peripheral/src/xuart.o
-                0x0000324c                UARTIntCallbackInit
+                0x00003278       0x34 ./src/CoX/CoX_Peripheral/src/xuart.o
+                0x00003278                UARTIntCallbackInit
  .text.WDTimerInit
-                0x00003280        0xc ./src/CoX/CoX_Peripheral/src/xwdt.o
-                0x00003280                WDTimerInit
+                0x000032ac        0xc ./src/CoX/CoX_Peripheral/src/xwdt.o
+                0x000032ac                WDTimerInit
  .text.WDTimerEnable
-                0x0000328c       0x14 ./src/CoX/CoX_Peripheral/src/xwdt.o
-                0x0000328c                WDTimerEnable
+                0x000032b8       0x14 ./src/CoX/CoX_Peripheral/src/xwdt.o
+                0x000032b8                WDTimerEnable
  .text.WDTimerRestart
-                0x000032a0       0x10 ./src/CoX/CoX_Peripheral/src/xwdt.o
-                0x000032a0                WDTimerRestart
- .text.main     0x000032b0       0xb0 ./src/main.o
-                0x000032b0                main
+                0x000032cc       0x10 ./src/CoX/CoX_Peripheral/src/xwdt.o
+                0x000032cc                WDTimerRestart
+ .text.main     0x000032dc       0xb0 ./src/main.o
+                0x000032dc                main
  .text.System_Time
-                0x00003360       0x50 ./src/tasks.o
-                0x00003360                System_Time
+                0x0000338c       0x50 ./src/tasks.o
+                0x0000338c                System_Time
  .text.Test_Task_1
-                0x000033b0       0x38 ./src/tasks.o
-                0x000033b0                Test_Task_1
+                0x000033dc       0x38 ./src/tasks.o
+                0x000033dc                Test_Task_1
  .text.Test_Task_2
-                0x000033e8      0x16c ./src/tasks.o
-                0x000033e8                Test_Task_2
+                0x00003414      0x16c ./src/tasks.o
+                0x00003414                Test_Task_2
  .text.SerialTask
-                0x00003554       0x84 ./src/tasks.o
-                0x00003554                SerialTask
- .text          0x000035d8      0x120 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
-                0x000035d8                __aeabi_uidiv
-                0x000035d8                __udivsi3
-                0x000036e4                __aeabi_uidivmod
- .text          0x000036f8        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
-                0x000036f8                __aeabi_idiv0
-                0x000036f8                __aeabi_ldiv0
- .text.__errno  0x000036fc        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
-                0x000036fc                __errno
- .text.memcpy   0x00003708       0x12 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
-                0x00003708                memcpy
- .text          0x0000371a       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
-                0x0000371a                strcmp
- .text.strlen   0x0000372e        0xe c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
-                0x0000372e                strlen
- .text.strncmp  0x0000373c       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
-                0x0000373c                strncmp
+                0x00003580       0x90 ./src/tasks.o
+                0x00003580                SerialTask
+ .text          0x00003610      0x120 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00003610                __aeabi_uidiv
+                0x00003610                __udivsi3
+                0x0000371c                __aeabi_uidivmod
+ .text          0x00003730        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00003730                __aeabi_idiv0
+                0x00003730                __aeabi_ldiv0
+ .text.__errno  0x00003734        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                0x00003734                __errno
+ .text.memcpy   0x00003740       0x12 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy.o)
+                0x00003740                memcpy
+ .text          0x00003752       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+                0x00003752                strcmp
+ .text.strlen   0x00003766        0xe c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strlen.o)
+                0x00003766                strlen
+ .text.strncmp  0x00003774       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strncmp.o)
+                0x00003774                strncmp
  .text._vsnprintf_r
-                0x00003764       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-vsnprintf.o)
-                0x00003764                _vsniprintf_r
-                0x00003764                _vsnprintf_r
+                0x0000379c       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-vsnprintf.o)
+                0x0000379c                _vsniprintf_r
+                0x0000379c                _vsnprintf_r
  .text.vsnprintf
-                0x000037b8       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-vsnprintf.o)
-                0x000037b8                vsniprintf
-                0x000037b8                vsnprintf
+                0x000037f0       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-vsnprintf.o)
+                0x000037f0                vsniprintf
+                0x000037f0                vsnprintf
  .text._malloc_r
-                0x000037d8       0xb0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
-                0x000037d8                _malloc_r
+                0x00003810       0xb0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00003810                _malloc_r
  .text.__ssputs_r
-                0x00003888       0xc0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
-                0x00003888                __ssputs_r
+                0x000038c0       0xc0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x000038c0                __ssputs_r
  .text._svfprintf_r
-                0x00003948      0x1ec c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
-                0x00003948                _svfiprintf_r
-                0x00003948                _svfprintf_r
+                0x00003980      0x1ec c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00003980                _svfiprintf_r
+                0x00003980                _svfprintf_r
  .text._printf_common
-                0x00003b34       0xdc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00003b34                _printf_common
+                0x00003b6c       0xdc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00003b6c                _printf_common
  .text._printf_i
-                0x00003c10      0x230 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00003c10                _printf_i
- .text._sbrk_r  0x00003e40       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
-                0x00003e40                _sbrk_r
- .text.memchr   0x00003e64       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
-                0x00003e64                memchr
- .text.memmove  0x00003e7a       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
-                0x00003e7a                memmove
- *fill*         0x00003ea2        0x2 
- .text._free_r  0x00003ea4       0x8c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
-                0x00003ea4                _free_r
+                0x00003c48      0x230 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00003c48                _printf_i
+ .text._sbrk_r  0x00003e78       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-sbrkr.o)
+                0x00003e78                _sbrk_r
+ .text.memchr   0x00003e9c       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memchr.o)
+                0x00003e9c                memchr
+ .text.memmove  0x00003eb2       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memmove.o)
+                0x00003eb2                memmove
+ *fill*         0x00003eda        0x2 
+ .text._free_r  0x00003edc       0x8c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-freer.o)
+                0x00003edc                _free_r
  .text._realloc_r
-                0x00003f30       0x4c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
-                0x00003f30                _realloc_r
+                0x00003f68       0x4c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
+                0x00003f68                _realloc_r
  .text._malloc_usable_size_r
-                0x00003f7c       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
-                0x00003f7c                _malloc_usable_size_r
+                0x00003fb4       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
+                0x00003fb4                _malloc_usable_size_r
  *(.rodata .rodata.* .constdata .constdata.*)
- *fill*         0x00003f92        0x2 
+ *fill*         0x00003fca        0x2 
  .rodata.str1.4
-                0x00003f94       0xbd ./system/src/cortexm/exception_handlers.o
- *fill*         0x00004051        0x3 
+                0x00003fcc       0xbd ./system/src/cortexm/exception_handlers.o
+ *fill*         0x00004089        0x3 
  .rodata.PriorityMask
-                0x00004054       0x80 ./src/brtos/BRTOS.o
-                0x00004054                PriorityMask
+                0x0000408c       0x80 ./src/brtos/BRTOS.o
+                0x0000408c                PriorityMask
  .rodata.str1.4
-                0x000040d4       0x1c ./src/brtos/BRTOS.o
+                0x0000410c       0x1c ./src/brtos/BRTOS.o
  .rodata.OSInstalledDevices
-                0x000040f0       0x10 ./src/brtos/device.o
+                0x00004128       0x10 ./src/brtos/device.o
  .rodata.dev_types
-                0x00004100       0x10 ./src/brtos/device.o
+                0x00004138       0x10 ./src/brtos/device.o
  .rodata.str1.4
-                0x00004110       0x18 ./src/brtos/device.o
+                0x00004148       0x18 ./src/brtos/device.o
  .rodata.OSOpenGPIO
-                0x00004128       0x14 ./src/Drivers/GPIOx.o
+                0x00004160       0x14 ./src/Drivers/GPIOx.o
  .rodata.GPIO_api
-                0x0000413c       0x10 ./src/Drivers/GPIOx.o
-                0x0000413c                GPIO_api
+                0x00004174       0x10 ./src/Drivers/GPIOx.o
+                0x00004174                GPIO_api
  .rodata.UART_Get
-                0x0000414c       0x14 ./src/Drivers/UARTx.o
+                0x00004184       0x14 ./src/Drivers/UARTx.o
  .rodata.UART_Set
-                0x00004160       0x38 ./src/Drivers/UARTx.o
+                0x00004198       0x38 ./src/Drivers/UARTx.o
  .rodata.UART_api
-                0x00004198       0x10 ./src/Drivers/UARTx.o
+                0x000041d0       0x10 ./src/Drivers/UARTx.o
  .rodata.g_pulPortBase
-                0x000041a8       0x14 ./src/CoX/CoX_Peripheral/src/xgpio.o
+                0x000041e0       0x14 ./src/CoX/CoX_Peripheral/src/xgpio.o
  .rodata.g_pulAXBCLKRegs
-                0x000041bc       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+                0x000041f4       0x10 ./src/CoX/CoX_Peripheral/src/xsysctl.o
  .rodata.str1.4
-                0x000041cc       0x42 ./src/main.o
- *fill*         0x0000420e        0x2 
+                0x00004204       0x42 ./src/main.o
+ *fill*         0x00004246        0x2 
  .rodata.Test_Task_2
-                0x00004210       0x14 ./src/tasks.o
+                0x00004248       0x14 ./src/tasks.o
  .rodata.str1.4
-                0x00004224       0x30 ./src/tasks.o
+                0x0000425c       0x30 ./src/tasks.o
                                  0x2e (size before relaxing)
  .rodata.SinusOutputData
-                0x00004254      0x200 ./src/tasks.o
+                0x0000428c      0x200 ./src/tasks.o
  .rodata.str1.1
-                0x00004454        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
- *fill*         0x00004456        0x2 
+                0x0000448c        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ *fill*         0x0000448e        0x2 
  .rodata.__sf_fake_stdin
-                0x00004458       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x00004458                __sf_fake_stdin
+                0x00004490       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x00004490                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x00004478       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x00004478                __sf_fake_stdout
+                0x000044b0       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x000044b0                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x00004498       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x00004498                __sf_fake_stderr
+                0x000044d0       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x000044d0                __sf_fake_stderr
  .rodata.str1.1
-                0x000044b8       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x000044f0       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x000044c9       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00004501       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
  *(vtable)
  *(.eh_frame*)
- *fill*         0x000044eb        0x1 
- .eh_frame      0x000044ec       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
+ *fill*         0x00004523        0x1 
+ .eh_frame      0x00004524       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-strcmp.o)
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00004514        0x0
+.vfp11_veneer   0x0000454c        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00004514        0x0
+.v4_bx          0x0000454c        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00004514        0x0
+.iplt           0x0000454c        0x0
  .iplt          0x00000000        0x0 ./system/src/newlib/_cxx.o
 
-.rel.dyn        0x00004514        0x0
+.rel.dyn        0x0000454c        0x0
  .rel.iplt      0x00000000        0x0 ./system/src/newlib/_cxx.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00004514                . = ALIGN (0x4)
-                0x00004514                __exidx_start = .
+                0x0000454c                . = ALIGN (0x4)
+                0x0000454c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00004514                __exidx_end = .
-                0x00004514                . = ALIGN (0x4)
-                0x00004514                _etext = .
-                0x00004514                __etext = .
+                0x0000454c                __exidx_end = .
+                0x0000454c                . = ALIGN (0x4)
+                0x0000454c                _etext = .
+                0x0000454c                __etext = .
 
-.data_CCMRAM    0x00000000        0x0 load address 0x00004514
+.data_CCMRAM    0x00000000        0x0 load address 0x0000454c
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x00000000                . = ALIGN (0x4)
-                0x00004514                _sidata = LOADADDR (.data)
+                0x0000454c                _sidata = LOADADDR (.data)
 
-.data           0x1ffff000       0x7c load address 0x00004514
+.data           0x1ffff000       0x7c load address 0x0000454c
  FILL mask 0xff
                 0x1ffff000                _sdata = .
                 0x1ffff000                __data_start__ = .
@@ -3255,7 +3256,7 @@ END GROUP
                 0x1ffff07c                _edata = .
                 0x1ffff07c                __data_end__ = .
 
-.igot.plt       0x1ffff07c        0x0 load address 0x00004590
+.igot.plt       0x1ffff07c        0x0 load address 0x000045c8
  .igot.plt      0x00000000        0x0 ./system/src/newlib/_cxx.o
 
 .bss_CCMRAM     0x00000000        0x0
@@ -3613,7 +3614,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xb0c8
+.debug_info     0x00000000     0xb0fb
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x100 ./system/src/newlib/_exit.o
  .debug_info    0x00000100      0x125 ./system/src/newlib/_sbrk.o
@@ -3643,7 +3644,7 @@ END GROUP
  .debug_info    0x00009686      0xb4d ./src/CoX/CoX_Peripheral/src/xuart.o
  .debug_info    0x0000a1d3       0x9f ./src/CoX/CoX_Peripheral/src/xwdt.o
  .debug_info    0x0000a272      0x2de ./src/main.o
- .debug_info    0x0000a550      0xb78 ./src/tasks.o
+ .debug_info    0x0000a550      0xbab ./src/tasks.o
 
 .debug_abbrev   0x00000000     0x2b41
  *(.debug_abbrev)
@@ -3757,7 +3758,7 @@ END GROUP
  .debug_frame   0x00001fd0       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-reallocr.o)
  .debug_frame   0x00002000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x00000000    0x40110
+.debug_str      0x00000000    0x4016a
  *(.debug_str)
  .debug_str     0x00000000     0x5d37 ./system/src/newlib/_exit.o
                                0x5ea9 (size before relaxing)
@@ -3785,38 +3786,38 @@ END GROUP
                                0x4f2a (size before relaxing)
  .debug_str     0x0002aceb      0x11e ./src/brtos/OSTime.o
                                0x4b5a (size before relaxing)
- .debug_str     0x0002ae09      0x5ca ./src/brtos/device.o
-                               0x73e1 (size before relaxing)
- .debug_str     0x0002b3d3       0x66 ./src/brtos/mbox.o
+ .debug_str     0x0002ae09      0x624 ./src/brtos/device.o
+                               0x743b (size before relaxing)
+ .debug_str     0x0002b42d       0x66 ./src/brtos/mbox.o
                                0x4be3 (size before relaxing)
- .debug_str     0x0002b439       0x5e ./src/brtos/mutex.o
+ .debug_str     0x0002b493       0x5e ./src/brtos/mutex.o
                                0x4c0e (size before relaxing)
- .debug_str     0x0002b497       0xb2 ./src/brtos/queue.o
+ .debug_str     0x0002b4f1       0xb2 ./src/brtos/queue.o
                                0x4ccc (size before relaxing)
- .debug_str     0x0002b549       0x57 ./src/brtos/semaphore.o
+ .debug_str     0x0002b5a3       0x57 ./src/brtos/semaphore.o
                                0x4bcd (size before relaxing)
- .debug_str     0x0002b5a0      0x1ac ./src/Drivers/MMA8451/accel.o
+ .debug_str     0x0002b5fa      0x1ac ./src/Drivers/MMA8451/accel.o
                               0x24b07 (size before relaxing)
- .debug_str     0x0002b74c       0x53 ./src/Drivers/DAC/DAC.o
+ .debug_str     0x0002b7a6       0x53 ./src/Drivers/DAC/DAC.o
                               0x23006 (size before relaxing)
- .debug_str     0x0002b79f     0x7dc3 ./src/Drivers/GPIOx.o
-                               0xd001 (size before relaxing)
- .debug_str     0x00033562     0x3e29 ./src/Drivers/UARTx.o
-                              0x30d74 (size before relaxing)
- .debug_str     0x0003738b     0x3547 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_str     0x0002b7f9     0x7dc3 ./src/Drivers/GPIOx.o
+                               0xd05b (size before relaxing)
+ .debug_str     0x000335bc     0x3e29 ./src/Drivers/UARTx.o
+                              0x30dce (size before relaxing)
+ .debug_str     0x000373e5     0x3547 ./src/CoX/CoX_Peripheral/src/xcore.o
                                0x625a (size before relaxing)
- .debug_str     0x0003a8d2     0x42d6 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_str     0x0003a92c     0x42d6 ./src/CoX/CoX_Peripheral/src/xgpio.o
                               0x118ec (size before relaxing)
- .debug_str     0x0003eba8      0xf59 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_str     0x0003ec02      0xf59 ./src/CoX/CoX_Peripheral/src/xsysctl.o
                                0xfbe6 (size before relaxing)
- .debug_str     0x0003fb01      0x3db ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_str     0x0003fb5b      0x3db ./src/CoX/CoX_Peripheral/src/xuart.o
                                0xf51e (size before relaxing)
- .debug_str     0x0003fedc       0x9b ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_str     0x0003ff36       0x9b ./src/CoX/CoX_Peripheral/src/xwdt.o
                                0xbf92 (size before relaxing)
- .debug_str     0x0003ff77      0x101 ./src/main.o
+ .debug_str     0x0003ffd1      0x101 ./src/main.o
                               0x2a2f3 (size before relaxing)
- .debug_str     0x00040078       0x98 ./src/tasks.o
-                               0xf17b (size before relaxing)
+ .debug_str     0x000400d2       0x98 ./src/tasks.o
+                               0xf1de (size before relaxing)
 
 .debug_loc      0x00000000     0x6d35
  *(.debug_loc)
@@ -3892,7 +3893,7 @@ OUTPUT(FRDM_BRTOS.elf elf32-littlearm)
  .debug_ranges  0x00000aa8       0x10 ./src/main.o
  .debug_ranges  0x00000ab8       0x28 ./src/tasks.o
 
-.debug_macro    0x00000000     0x86ea
+.debug_macro    0x00000000     0x86f6
  .debug_macro   0x00000000      0x131 ./system/src/newlib/_exit.o
  .debug_macro   0x00000131      0x83e ./system/src/newlib/_exit.o
  .debug_macro   0x0000096f       0x9c ./system/src/newlib/_exit.o
@@ -3949,29 +3950,29 @@ OUTPUT(FRDM_BRTOS.elf elf32-littlearm)
  .debug_macro   0x00004dae      0x15f ./src/brtos/device.o
  .debug_macro   0x00004f0d      0x1f5 ./src/brtos/device.o
  .debug_macro   0x00005102       0x22 ./src/brtos/device.o
- .debug_macro   0x00005124       0xea ./src/brtos/device.o
- .debug_macro   0x0000520e       0x9b ./src/brtos/mbox.o
- .debug_macro   0x000052a9       0x9b ./src/brtos/mutex.o
- .debug_macro   0x00005344       0x9b ./src/brtos/queue.o
- .debug_macro   0x000053df       0x9b ./src/brtos/semaphore.o
- .debug_macro   0x0000547a      0x118 ./src/Drivers/MMA8451/accel.o
- .debug_macro   0x00005592       0xaf ./src/Drivers/DAC/DAC.o
- .debug_macro   0x00005641       0xe4 ./src/Drivers/GPIOx.o
- .debug_macro   0x00005725     0x17ef ./src/Drivers/GPIOx.o
- .debug_macro   0x00006f14      0x206 ./src/Drivers/GPIOx.o
- .debug_macro   0x0000711a      0x15e ./src/Drivers/UARTx.o
- .debug_macro   0x00007278       0xcc ./src/Drivers/UARTx.o
- .debug_macro   0x00007344      0x576 ./src/Drivers/UARTx.o
- .debug_macro   0x000078ba      0x58f ./src/Drivers/UARTx.o
- .debug_macro   0x00007e49       0x10 ./src/Drivers/UARTx.o
- .debug_macro   0x00007e59       0x47 ./src/CoX/CoX_Peripheral/src/xcore.o
- .debug_macro   0x00007ea0       0x6b ./src/CoX/CoX_Peripheral/src/xgpio.o
- .debug_macro   0x00007f0b      0x1a5 ./src/CoX/CoX_Peripheral/src/xgpio.o
- .debug_macro   0x000080b0      0x13d ./src/CoX/CoX_Peripheral/src/xsysctl.o
- .debug_macro   0x000081ed       0x25 ./src/CoX/CoX_Peripheral/src/xsysctl.o
- .debug_macro   0x00008212       0x62 ./src/CoX/CoX_Peripheral/src/xuart.o
- .debug_macro   0x00008274       0x6b ./src/CoX/CoX_Peripheral/src/xwdt.o
- .debug_macro   0x000082df       0x28 ./src/CoX/CoX_Peripheral/src/xwdt.o
- .debug_macro   0x00008307      0x22d ./src/main.o
- .debug_macro   0x00008534       0xa6 ./src/main.o
- .debug_macro   0x000085da      0x110 ./src/tasks.o
+ .debug_macro   0x00005124       0xf6 ./src/brtos/device.o
+ .debug_macro   0x0000521a       0x9b ./src/brtos/mbox.o
+ .debug_macro   0x000052b5       0x9b ./src/brtos/mutex.o
+ .debug_macro   0x00005350       0x9b ./src/brtos/queue.o
+ .debug_macro   0x000053eb       0x9b ./src/brtos/semaphore.o
+ .debug_macro   0x00005486      0x118 ./src/Drivers/MMA8451/accel.o
+ .debug_macro   0x0000559e       0xaf ./src/Drivers/DAC/DAC.o
+ .debug_macro   0x0000564d       0xe4 ./src/Drivers/GPIOx.o
+ .debug_macro   0x00005731     0x17ef ./src/Drivers/GPIOx.o
+ .debug_macro   0x00006f20      0x206 ./src/Drivers/GPIOx.o
+ .debug_macro   0x00007126      0x15e ./src/Drivers/UARTx.o
+ .debug_macro   0x00007284       0xcc ./src/Drivers/UARTx.o
+ .debug_macro   0x00007350      0x576 ./src/Drivers/UARTx.o
+ .debug_macro   0x000078c6      0x58f ./src/Drivers/UARTx.o
+ .debug_macro   0x00007e55       0x10 ./src/Drivers/UARTx.o
+ .debug_macro   0x00007e65       0x47 ./src/CoX/CoX_Peripheral/src/xcore.o
+ .debug_macro   0x00007eac       0x6b ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_macro   0x00007f17      0x1a5 ./src/CoX/CoX_Peripheral/src/xgpio.o
+ .debug_macro   0x000080bc      0x13d ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_macro   0x000081f9       0x25 ./src/CoX/CoX_Peripheral/src/xsysctl.o
+ .debug_macro   0x0000821e       0x62 ./src/CoX/CoX_Peripheral/src/xuart.o
+ .debug_macro   0x00008280       0x6b ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_macro   0x000082eb       0x28 ./src/CoX/CoX_Peripheral/src/xwdt.o
+ .debug_macro   0x00008313      0x22d ./src/main.o
+ .debug_macro   0x00008540       0xa6 ./src/main.o
+ .debug_macro   0x000085e6      0x110 ./src/tasks.o

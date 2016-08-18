@@ -444,16 +444,24 @@ static size_t UART_Set(OS_Device_Control_t *dev, uint32_t request, uint32_t valu
 			uart_conf->timeout = value;
 			break;
 		case CTRL_ACQUIRE_READ_MUTEX:
-			ret = OSMutexAcquire(SerialRMutex[dev->device_number],value);
+			if (SerialRMutex[dev->device_number] != NULL){
+				ret = OSMutexAcquire(SerialRMutex[dev->device_number],value);
+			}
 			break;
 		case CTRL_ACQUIRE_WRITE_MUTEX:
-			ret = OSMutexAcquire(SerialWMutex[dev->device_number],value);
+			if (SerialWMutex[dev->device_number] != NULL){
+				ret = OSMutexAcquire(SerialWMutex[dev->device_number],value);
+			}
 			break;
 		case CTRL_RELEASE_WRITE_MUTEX:
-			ret = OSMutexRelease(SerialWMutex[dev->device_number]);
+			if (SerialWMutex[dev->device_number] != NULL){
+				ret = OSMutexRelease(SerialWMutex[dev->device_number]);
+			}
 			break;
 		case CTRL_RELEASE_READ_MUTEX:
-			ret = OSMutexRelease(SerialRMutex[dev->device_number]);
+			if (SerialRMutex[dev->device_number] != NULL){
+				ret = OSMutexRelease(SerialRMutex[dev->device_number]);
+			}
 			break;
 		default:
 			break;

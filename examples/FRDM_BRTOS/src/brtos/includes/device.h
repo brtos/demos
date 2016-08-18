@@ -99,6 +99,9 @@ size_t OSDevRead(OS_Device_Control_t *dev, void *string, const size_t bytes);
 size_t OSDevSet(OS_Device_Control_t *dev, uint32_t request, uint32_t value );
 size_t OSDevGet(OS_Device_Control_t *dev, uint32_t request);
 
+#define OSGPIOWrite(x,y,z) OSDevWrite(x, (const void *)(y), z)
+#define OSGPIORead(x,y) OSDevRead(x, y, 0)
+
 // UART types
 #define INF_TIMEOUT		0
 #ifndef NO_TIMEOUT
@@ -110,7 +113,7 @@ typedef enum{
 	CTRL_ACQUIRE_WRITE_MUTEX,
 	CTRL_RELEASE_WRITE_MUTEX,
 	CTRL_RELEASE_READ_MUTEX
-};
+}ctrl_t;
 
 typedef enum{
 	UART_PAR_NONE,
