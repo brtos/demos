@@ -15,6 +15,8 @@
 #define INTERRUPT_ADC   5
 #define INTERRUPT_DAC	6
 
+#define assert(x)  if(!(x)) while(1){}
+#define ConfiguraInterruptHandler(a,b)
 
 typedef enum{
 	ADC_POLLING,
